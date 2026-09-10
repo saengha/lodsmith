@@ -1,0 +1,12 @@
+{
+  "id": "entrance",
+  "name": "Entrance",
+  "description": "Door, signpost, lantern, and a wall torch.",
+  "tags": ["architecture", "outdoor", "indoor"],
+  "items": [
+    { "recipe": "door", "location": [0, 0, 0] },
+    { "recipe": "signpost", "location": [1.2, 0.15, 0] },
+    { "recipe": "lantern", "location": [-1.05, 0.2, 0] },
+    { "recipe": "torch", "location": [0.85, -0.15, 0] }
+  ]
+}

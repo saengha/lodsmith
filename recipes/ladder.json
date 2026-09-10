@@ -1,0 +1,58 @@
+{
+  "id": "ladder",
+  "name": "Ladder",
+  "description": "Two rails and five rungs. Lean it in-engine if you need a climb.",
+  "tags": ["props", "wood", "outdoor"],
+  "target_tris": 84,
+  "parts": [
+    {
+      "name": "rail_left",
+      "primitive": "cube",
+      "size": [0.06, 0.05, 2.0],
+      "location": [-0.22, 0, 1.0],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "rail_right",
+      "primitive": "cube",
+      "size": [0.06, 0.05, 2.0],
+      "location": [0.22, 0, 1.0],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "rung_0",
+      "primitive": "cube",
+      "size": [0.4, 0.06, 0.045],
+      "location": [0, 0.02, 0.28],
+      "color": "#8c6239"
+    },
+    {
+      "name": "rung_1",
+      "primitive": "cube",
+      "size": [0.4, 0.06, 0.045],
+      "location": [0, 0.02, 0.64],
+      "color": "#7a5429"
+    },
+    {
+      "name": "rung_2",
+      "primitive": "cube",
+      "size": [0.4, 0.06, 0.045],
+      "location": [0, 0.02, 1.0],
+      "color": "#8c6239"
+    },
+    {
+      "name": "rung_3",
+      "primitive": "cube",
+      "size": [0.4, 0.06, 0.045],
+      "location": [0, 0.02, 1.36],
+      "color": "#7a5429"
+    },
+    {
+      "name": "rung_4",
+      "primitive": "cube",
+      "size": [0.4, 0.06, 0.045],
+      "location": [0, 0.02, 1.72],
+      "color": "#8c6239"
+    }
+  ]
+}

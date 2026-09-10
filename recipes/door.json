@@ -1,0 +1,44 @@
+{
+  "id": "door",
+  "name": "Door",
+  "description": "Door panel in a frame with a handle. Separate parts.",
+  "tags": ["architecture", "indoor", "outdoor"],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "jamb_left",
+      "primitive": "cube",
+      "size": [0.08, 0.1, 2.0],
+      "location": [-0.5, 0, 1.0],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "jamb_right",
+      "primitive": "cube",
+      "size": [0.08, 0.1, 2.0],
+      "location": [0.5, 0, 1.0],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "lintel",
+      "primitive": "cube",
+      "size": [1.08, 0.1, 0.08],
+      "location": [0, 0, 2.04],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "panel",
+      "primitive": "cube",
+      "size": [0.92, 0.05, 1.92],
+      "location": [0, 0, 0.96],
+      "color": "#7a5429"
+    },
+    {
+      "name": "handle",
+      "primitive": "cube",
+      "size": [0.04, 0.08, 0.04],
+      "location": [0.32, -0.06, 1.0],
+      "color": "#3a3a40"
+    }
+  ]
+}

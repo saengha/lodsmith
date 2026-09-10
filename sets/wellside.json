@@ -1,0 +1,13 @@
+{
+  "id": "wellside",
+  "name": "Wellside",
+  "description": "Village well with a bucket, cart, ladder, and an open crate.",
+  "tags": ["outdoor", "village", "water"],
+  "items": [
+    { "recipe": "well", "location": [0, 0, 0] },
+    { "recipe": "bucket", "location": [0.72, 0.55, 0] },
+    { "recipe": "cart", "location": [1.85, -0.25, 0] },
+    { "recipe": "ladder", "location": [-0.95, 0.2, 0] },
+    { "recipe": "crate_open", "location": [1.55, 0.75, 0] }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cauldron",
+  "name": "Cauldron",
+  "description": "Iron pot: base, body, rim, two handles, stew. Not a bucket: bucket is a wood pail.",
+  "tags": ["camp", "cook", "metal", "stew"],
+  "target_tris": 72,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [0.28, 0.28, 0.06],
+      "location": [0, 0, 0.03],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "body",
+      "primitive": "cube",
+      "size": [0.38, 0.38, 0.28],
+      "location": [0, 0, 0.2],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "rim",
+      "primitive": "cube",
+      "size": [0.4, 0.4, 0.04],
+      "location": [0, 0, 0.36],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "handle_l",
+      "primitive": "cube",
+      "size": [0.04, 0.08, 0.1],
+      "location": [-0.22, 0, 0.32],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "handle_r",
+      "primitive": "cube",
+      "size": [0.04, 0.08, 0.1],
+      "location": [0.22, 0, 0.32],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "stew",
+      "primitive": "cube",
+      "size": [0.3, 0.3, 0.04],
+      "location": [0, 0, 0.32],
+      "color": "#6b3a22"
+    }
+  ]
+}

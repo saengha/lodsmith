@@ -1,48 +1,72 @@
 # Contributing
 
-Thanks for considering a change. The unit of contribution is a **recipe**, not a new architecture.
+The unit of contribution is a **JSON recipe or set**. You do not need to touch Python.
 
-## Before you start
+Your merged `id` becomes `lodsmith.<id>` with named parts (`crate.lid`, 72 tris on the shipped crate). That is the credit: a name agents Build and a game can select. We do not issue tokens, paid slots, or fake founder badges. Don't exec bpy. The IKEA step is `python -m addon new recipe <id>` — then you own the parts.
 
-1. Comment on an issue (or open one) and tag **@saengha** so two people do not build the same prop.
-2. Look for `good first issue`. Adding `barrel.json` is the intended starter.
+The useful tavern / warehouse / camp / smithy vocabulary is finite. About 34 recipes exist. A careful new prop is a first PR; a pile of near-copies is not. `crate.lid` and `anvil.horn` are taken.
 
-## Setup
+## Names that get closed
+
+A merged `id` is public (`lodsmith.<id>`, named parts like `crate.lid`). Offensive, sexual, hate, impersonation, and troll ids are **closed without debate**. Near-duplicate spam (`crate2`, a 1 cm-taller stool) is closed the same way.
+
+Comments on an issue or PR can flag a bad name. **Only maintainers merge.** Other contributors do not get vigilante close or merge powers.
+
+CI (`python -m addon validate`, pytest) rejects reserved and blocked slugs (`cube`, `untitled`, `test`, and a short troll list). The denylist in `addon/naming.py` is short on purpose. Maintainers can still close anything the list misses.
+
+## First PR
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/lodsmith.git
 cd lodsmith
 python -m pip install pytest
+python -m addon new recipe stool_tall --name "Tall stool"
+# edit recipes/stool_tall.json — keep id == filename, target_tris == 12 × parts
+python -m addon validate
 python -m pytest
+# same PR: one line in CREDITS.md — `stool_tall` — @yourhandle
 ```
 
-Install the repo folder as a Blender 4.2+ extension to click **Build** in the viewport.
+Open a PR titled `feat(recipes): add stool_tall` and tag **@saengha**. Comment on an issue first if you can. One recipe (or one set) per first PR.
 
-## Add a recipe
+A set is the same shape:
 
-1. Copy `recipes/crate.json` to `recipes/<id>.json`.
-2. Set a unique `id` (filename without `.json`), a display `name`, and `target_tris`.
-3. List `parts` with `name`, `primitive` (`cube` only for now), `size` `[x, y, z]`, and `location` `[x, y, z]`.
-4. Keep parts separate (body / lid / walls). Do not collapse into one blob.
-5. Run `python -m pytest`.
-6. Open a pull request.
-
-## Commit messages
-
-[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
-
+```bash
+python -m addon new set dock crate barrel pallet
 ```
-feat(recipes): add barrel
-fix(loader): reject empty parts lists
-```
+
+## Rules that fail CI
+
+- `"id"` equals the filename stem (`stool_tall.json`)
+- `id` is a lowercase slug and is not reserved/blocked (`addon/naming.py`)
+- Recipes: `primitive` is `cube`, unique lowercase part names, `target_tris` is `12 * len(parts)`
+- Sets: every `items[].recipe` already exists in `recipes/`
+- No cloud mesh APIs, no arbitrary `bpy` from a model, no login gate on Build
+
+Planner synonyms, Korean aliases, and README lists are optional. Maintainers can add those after merge.
+
+## Quality
+
+- Parts a programmer can select (`lid`, `horn`, not `cube_07`)
+- Sizes in meters at indie scale (shipped `crate` is 0.8 × 0.6 × ~0.5 m)
+- New silhouette or function, not a rename of `crate` / `stool`
+- Sets may only reference recipes that already exist in `recipes/`
+
+## Names still open (examples, not a quota)
+
+Comment first. These are not bounties and not a promise we will merge a thin cube stack. Claimed this round: `bed`, `chair`, `anvil`, `firepit`, `tent`, `bottle`, `book`, `hammer`, `cauldron`, plus sets `smithy` and `inn`.
+
+Recipes still unnamed: `bellows`, `grindstone`, `wardrobe`.
+
+Sets that can land on **shipped** recipes only, e.g. `dock` (`crate`, `barrel`, `pallet`). Do not reship `tavern` as another pub corner.
 
 ## What not to send
 
-- Cloud mesh APIs (Rodin, Tripo, Hunyuan, …)
-- Arbitrary `bpy` script execution from the LLM
-- Refactors of the panel / loader unless a recipe cannot ship without them
-- Payment, accounts, or feature flags that lock Build behind a login
-
-## Help
+- Rodin / Tripo / Hunyuan / Meshy wrappers
+- An operator that `exec`s model-written Python
+- Payment, accounts, or tokens that lock Build
+- Coins, whitelist access, fake download counts, countdown “slots”
+- Catalog spam (third lid angle, 1 cm-taller stool, 40 untitled boxes)
+- Offensive, sexual, hate, impersonation, or joke/troll ids (`lodsmith.<id>` is the public API)
 
 Tag **@saengha** on the issue or pull request.

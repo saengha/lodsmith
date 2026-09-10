@@ -1,0 +1,44 @@
+{
+  "id": "hammer",
+  "name": "Hammer",
+  "description": "Handle, head, face, peen, and wedge. hammer.face is a cube. Pair with anvil: that id is taken.",
+  "tags": ["smithy", "tool", "metal", "peen"],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "handle",
+      "primitive": "cube",
+      "size": [0.32, 0.035, 0.035],
+      "location": [-0.06, 0, 0.03],
+      "color": "#6b4622"
+    },
+    {
+      "name": "head",
+      "primitive": "cube",
+      "size": [0.1, 0.055, 0.055],
+      "location": [0.16, 0, 0.045],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "face",
+      "primitive": "cube",
+      "size": [0.03, 0.05, 0.05],
+      "location": [0.225, 0, 0.045],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "peen",
+      "primitive": "cube",
+      "size": [0.045, 0.028, 0.028],
+      "location": [0.085, 0, 0.045],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "wedge",
+      "primitive": "cube",
+      "size": [0.02, 0.02, 0.02],
+      "location": [0.12, 0, 0.065],
+      "color": "#4a2c17"
+    }
+  ]
+}

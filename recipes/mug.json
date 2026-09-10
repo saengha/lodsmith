@@ -1,0 +1,23 @@
+{
+  "id": "mug",
+  "name": "Mug",
+  "description": "Tiny tavern mug with a cube handle.",
+  "tags": ["tavern", "props"],
+  "target_tris": 24,
+  "parts": [
+    {
+      "name": "body",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 0.1],
+      "location": [0, 0, 0.05],
+      "color": "#6b4622"
+    },
+    {
+      "name": "handle",
+      "primitive": "cube",
+      "size": [0.02, 0.035, 0.06],
+      "location": [0.055, 0, 0.05],
+      "color": "#4a2c17"
+    }
+  ]
+}

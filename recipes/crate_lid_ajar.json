@@ -1,0 +1,52 @@
+{
+  "id": "crate_lid_ajar",
+  "name": "Crate with lid ajar",
+  "description": "Shipping crate whose lid is tilted open on the back edge.",
+  "tags": ["storage", "wood", "open"],
+  "target_tris": 72,
+  "parts": [
+    {
+      "name": "floor",
+      "primitive": "cube",
+      "size": [0.8, 0.6, 0.04],
+      "location": [0, 0, 0.02],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "wall_front",
+      "primitive": "cube",
+      "size": [0.8, 0.04, 0.42],
+      "location": [0, -0.28, 0.25],
+      "color": "#7a5429"
+    },
+    {
+      "name": "wall_back",
+      "primitive": "cube",
+      "size": [0.8, 0.04, 0.42],
+      "location": [0, 0.28, 0.25],
+      "color": "#7a5429"
+    },
+    {
+      "name": "wall_left",
+      "primitive": "cube",
+      "size": [0.04, 0.52, 0.42],
+      "location": [-0.38, 0, 0.25],
+      "color": "#6b4622"
+    },
+    {
+      "name": "wall_right",
+      "primitive": "cube",
+      "size": [0.04, 0.52, 0.42],
+      "location": [0.38, 0, 0.25],
+      "color": "#6b4622"
+    },
+    {
+      "name": "lid",
+      "primitive": "cube",
+      "size": [0.84, 0.64, 0.05],
+      "location": [0, 0.22, 0.72],
+      "rotation_deg": [-55, 0, 0],
+      "color": "#8c6239"
+    }
+  ]
+}

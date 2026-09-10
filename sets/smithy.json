@@ -1,0 +1,17 @@
+{
+  "id": "smithy",
+  "name": "Smithy",
+  "description": "Anvil, hammer on the face, cauldron, barrel, crate, bucket, stool, torch, and a wall shelf.",
+  "tags": ["smithy", "forge", "indoor", "metal"],
+  "items": [
+    { "recipe": "anvil", "location": [0, 0, 0] },
+    { "recipe": "hammer", "location": [0.02, 0, 0.4] },
+    { "recipe": "cauldron", "location": [-1.45, -0.35, 0] },
+    { "recipe": "barrel", "location": [1.5, -0.55, 0] },
+    { "recipe": "crate", "location": [1.5, 0.5, 0] },
+    { "recipe": "bucket", "location": [-0.85, 0.4, 0] },
+    { "recipe": "stool", "location": [-0.95, -0.6, 0] },
+    { "recipe": "torch", "location": [-1.5, 0.95, 0] },
+    { "recipe": "shelf", "location": [0.15, 1.2, 0] }
+  ]
+}

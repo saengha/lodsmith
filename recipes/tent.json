@@ -1,0 +1,61 @@
+{
+  "id": "tent",
+  "name": "Tent",
+  "description": "A-frame: floor, ridge, two poles, two walls, flap. tent.flap is a cube.",
+  "tags": ["camp", "outdoor", "shelter", "canvas"],
+  "target_tris": 84,
+  "parts": [
+    {
+      "name": "floor",
+      "primitive": "cube",
+      "size": [1.5, 2.0, 0.03],
+      "location": [0, 0, 0.015],
+      "color": "#6b5a40"
+    },
+    {
+      "name": "pole_front",
+      "primitive": "cube",
+      "size": [0.06, 0.06, 1.15],
+      "location": [0, -0.95, 0.575],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "pole_back",
+      "primitive": "cube",
+      "size": [0.06, 0.06, 1.15],
+      "location": [0, 0.95, 0.575],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "ridge",
+      "primitive": "cube",
+      "size": [0.06, 2.05, 0.06],
+      "location": [0, 0, 1.15],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "wall_left",
+      "primitive": "cube",
+      "size": [0.05, 2.02, 1.32],
+      "location": [-0.42, 0, 0.62],
+      "rotation_deg": [0, 32, 0],
+      "color": "#c4b496"
+    },
+    {
+      "name": "wall_right",
+      "primitive": "cube",
+      "size": [0.05, 2.02, 1.32],
+      "location": [0.42, 0, 0.62],
+      "rotation_deg": [0, -32, 0],
+      "color": "#c4b496"
+    },
+    {
+      "name": "flap",
+      "primitive": "cube",
+      "size": [0.45, 0.04, 0.7],
+      "location": [0.18, -1.02, 0.4],
+      "rotation_deg": [0, 0, -18],
+      "color": "#b8a078"
+    }
+  ]
+}

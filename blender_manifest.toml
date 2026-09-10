@@ -5,6 +5,7 @@ version = "0.1.0"
 name = "Lodsmith"
 tagline = "Local low-poly prop recipes for indie games"
 maintainer = "saengha"
+website = "https://github.com/saengha/lodsmith"
 type = "add-on"
 
 blender_version_min = "4.2.0"

@@ -1,0 +1,44 @@
+{
+  "id": "bench",
+  "name": "Bench",
+  "description": "Four legs and a seat plank.",
+  "tags": ["furniture", "wood", "seat"],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "leg_fl",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 0.42],
+      "location": [-0.55, -0.18, 0.21],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "leg_fr",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 0.42],
+      "location": [0.55, -0.18, 0.21],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "leg_bl",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 0.42],
+      "location": [-0.55, 0.18, 0.21],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "leg_br",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 0.42],
+      "location": [0.55, 0.18, 0.21],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "seat",
+      "primitive": "cube",
+      "size": [1.3, 0.44, 0.06],
+      "location": [0, 0, 0.45],
+      "color": "#8c6239"
+    }
+  ]
+}

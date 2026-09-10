@@ -1,44 +1,51 @@
 {
   "id": "crate",
   "name": "Crate",
-  "description": "Lidded shipping crate with separate walls, floor, and lid.",
+  "description": "Lidded shipping crate with separate walls, floor, and lid. 72 tris. Don't exec bpy.",
+  "tags": ["storage", "wood", "shipping"],
   "target_tris": 72,
   "parts": [
     {
       "name": "floor",
       "primitive": "cube",
       "size": [0.8, 0.6, 0.04],
-      "location": [0, 0, 0.02]
+      "location": [0, 0, 0.02],
+      "color": "#4a2c17"
     },
     {
       "name": "wall_front",
       "primitive": "cube",
       "size": [0.8, 0.04, 0.42],
-      "location": [0, -0.28, 0.25]
+      "location": [0, -0.28, 0.25],
+      "color": "#7a5429"
     },
     {
       "name": "wall_back",
       "primitive": "cube",
       "size": [0.8, 0.04, 0.42],
-      "location": [0, 0.28, 0.25]
+      "location": [0, 0.28, 0.25],
+      "color": "#7a5429"
     },
     {
       "name": "wall_left",
       "primitive": "cube",
       "size": [0.04, 0.52, 0.42],
-      "location": [-0.38, 0, 0.25]
+      "location": [-0.38, 0, 0.25],
+      "color": "#6b4622"
     },
     {
       "name": "wall_right",
       "primitive": "cube",
       "size": [0.04, 0.52, 0.42],
-      "location": [0.38, 0, 0.25]
+      "location": [0.38, 0, 0.25],
+      "color": "#6b4622"
     },
     {
       "name": "lid",
       "primitive": "cube",
       "size": [0.84, 0.64, 0.05],
-      "location": [0, 0, 0.485]
+      "location": [0, 0, 0.485],
+      "color": "#8c6239"
     }
   ]
 }

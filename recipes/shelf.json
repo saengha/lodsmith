@@ -1,0 +1,30 @@
+{
+  "id": "shelf",
+  "name": "Wall shelf",
+  "description": "A wall board with two brackets.",
+  "tags": ["furniture", "tavern", "props"],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "board",
+      "primitive": "cube",
+      "size": [0.9, 0.18, 0.04],
+      "location": [0, 0, 0.9],
+      "color": "#8c6239"
+    },
+    {
+      "name": "bracket_l",
+      "primitive": "cube",
+      "size": [0.05, 0.14, 0.16],
+      "location": [-0.32, 0, 0.8],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "bracket_r",
+      "primitive": "cube",
+      "size": [0.05, 0.14, 0.16],
+      "location": [0.32, 0, 0.8],
+      "color": "#4a2c17"
+    }
+  ]
+}

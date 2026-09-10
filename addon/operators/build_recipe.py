@@ -4,7 +4,11 @@ from __future__ import annotations
 
 import bpy
 
+from ..compile import compile_recipe
+from ..naming import parent_name
 from ..recipe_loader import RecipeError, load_all, recipes_dir
+from ..viewport import frame_selected, hide_startup_cube, prefer_material_preview
+from .spawn import cursor_origin, select_tree, spawn_recipe
 
 
 class LODSMITH_OT_build_recipe(bpy.types.Operator):
@@ -16,7 +20,9 @@ class LODSMITH_OT_build_recipe(bpy.types.Operator):
     recipe_id: bpy.props.StringProperty(name="Recipe", default="crate")
 
     def execute(self, context):
-        recipe_id = self.recipe_id or getattr(context.scene, "lodsmith_recipe_id", "crate")
+        recipe_id = self.recipe_id or getattr(
+            context.scene, "lodsmith_recipe_id", "crate"
+        )
         try:
             recipes = {recipe.id: recipe for recipe in load_all(recipes_dir())}
         except RecipeError as exc:
@@ -28,24 +34,21 @@ class LODSMITH_OT_build_recipe(bpy.types.Operator):
             self.report({"ERROR"}, f"Unknown recipe: {recipe_id}")
             return {"CANCELLED"}
 
-        parent = bpy.data.objects.new(f"lodsmith.{recipe.id}", None)
-        context.collection.objects.link(parent)
-
-        created = []
-        for part in recipe.parts:
-            bpy.ops.mesh.primitive_cube_add(size=1.0, location=part.location)
-            obj = context.active_object
-            obj.name = f"{recipe.id}.{part.name}"
-            obj.scale = part.size
-            obj.parent = parent
-            created.append(obj)
-
-        for obj in created:
-            obj.select_set(True)
-        parent.select_set(True)
-        context.view_layer.objects.active = parent
+        compiled = compile_recipe(recipe)
+        root, created = spawn_recipe(
+            context,
+            recipe,
+            root_name=parent_name(recipe.id),
+            origin=cursor_origin(context),
+            replace=True,
+        )
+        select_tree(context, root, created)
+        hide_startup_cube(context)
+        prefer_material_preview(context)
+        frame_selected(context)
         self.report(
             {"INFO"},
-            f"Built {recipe.name} ({len(recipe.parts)} parts, target {recipe.target_tris} tris)",
+            f"Built {recipe.name} ({len(recipe.parts)} parts, "
+            f"target {compiled.target_tris} tris)",
         )
         return {"FINISHED"}

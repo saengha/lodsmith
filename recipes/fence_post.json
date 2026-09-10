@@ -1,0 +1,30 @@
+{
+  "id": "fence_post",
+  "name": "Fence section",
+  "description": "One post and two rails — tile this for a yard fence.",
+  "tags": ["outdoor", "wood", "modular"],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "post",
+      "primitive": "cube",
+      "size": [0.1, 0.1, 1.1],
+      "location": [0, 0, 0.55],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "rail_low",
+      "primitive": "cube",
+      "size": [1.2, 0.06, 0.08],
+      "location": [0.6, 0, 0.35],
+      "color": "#7a5429"
+    },
+    {
+      "name": "rail_high",
+      "primitive": "cube",
+      "size": [1.2, 0.06, 0.08],
+      "location": [0.6, 0, 0.75],
+      "color": "#7a5429"
+    }
+  ]
+}

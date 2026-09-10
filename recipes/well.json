@@ -1,0 +1,79 @@
+{
+  "id": "well",
+  "name": "Well",
+  "description": "Stone curb, water, two posts, a beam, winch, and crank.",
+  "tags": ["props", "outdoor", "village"],
+  "target_tris": 120,
+  "parts": [
+    {
+      "name": "water",
+      "primitive": "cube",
+      "size": [0.64, 0.64, 0.05],
+      "location": [0, 0, 0.14],
+      "color": "#3d6d8c"
+    },
+    {
+      "name": "curb_front",
+      "primitive": "cube",
+      "size": [0.9, 0.13, 0.4],
+      "location": [0, -0.385, 0.2],
+      "color": "#7a7a72"
+    },
+    {
+      "name": "curb_back",
+      "primitive": "cube",
+      "size": [0.9, 0.13, 0.4],
+      "location": [0, 0.385, 0.2],
+      "color": "#7a7a72"
+    },
+    {
+      "name": "curb_left",
+      "primitive": "cube",
+      "size": [0.13, 0.64, 0.4],
+      "location": [-0.385, 0, 0.2],
+      "color": "#5c5c56"
+    },
+    {
+      "name": "curb_right",
+      "primitive": "cube",
+      "size": [0.13, 0.64, 0.4],
+      "location": [0.385, 0, 0.2],
+      "color": "#5c5c56"
+    },
+    {
+      "name": "post_left",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 1.05],
+      "location": [-0.42, 0, 0.925],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "post_right",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 1.05],
+      "location": [0.42, 0, 0.925],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "beam",
+      "primitive": "cube",
+      "size": [0.92, 0.09, 0.09],
+      "location": [0, 0, 1.48],
+      "color": "#6b4622"
+    },
+    {
+      "name": "winch",
+      "primitive": "cube",
+      "size": [0.12, 0.12, 0.12],
+      "location": [0, 0, 1.36],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "crank",
+      "primitive": "cube",
+      "size": [0.05, 0.22, 0.05],
+      "location": [0.48, 0.08, 1.48],
+      "color": "#3a3a40"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "yard",
+  "name": "Yard fence",
+  "description": "A run of fence, a signpost, and a lantern.",
+  "tags": ["outdoor", "yard", "modular"],
+  "items": [
+    {
+      "recipe": "fence_post",
+      "location": [0, 0, 0],
+      "repeat": 4,
+      "offset": [1.2, 0, 0]
+    },
+    { "recipe": "signpost", "location": [4.4, 0, 0] },
+    { "recipe": "lantern", "location": [-0.45, 0.15, 0] }
+  ]
+}

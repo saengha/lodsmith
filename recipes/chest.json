@@ -1,0 +1,58 @@
+{
+  "id": "chest",
+  "name": "Chest",
+  "description": "Low treasure chest with a latch strip. Lid is a separate part.",
+  "tags": ["storage", "wood", "loot"],
+  "target_tris": 84,
+  "parts": [
+    {
+      "name": "floor",
+      "primitive": "cube",
+      "size": [0.7, 0.42, 0.04],
+      "location": [0, 0, 0.02],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "wall_front",
+      "primitive": "cube",
+      "size": [0.7, 0.04, 0.28],
+      "location": [0, -0.19, 0.18],
+      "color": "#6b3a22"
+    },
+    {
+      "name": "wall_back",
+      "primitive": "cube",
+      "size": [0.7, 0.04, 0.28],
+      "location": [0, 0.19, 0.18],
+      "color": "#6b3a22"
+    },
+    {
+      "name": "wall_left",
+      "primitive": "cube",
+      "size": [0.04, 0.34, 0.28],
+      "location": [-0.33, 0, 0.18],
+      "color": "#7a5429"
+    },
+    {
+      "name": "wall_right",
+      "primitive": "cube",
+      "size": [0.04, 0.34, 0.28],
+      "location": [0.33, 0, 0.18],
+      "color": "#7a5429"
+    },
+    {
+      "name": "lid",
+      "primitive": "cube",
+      "size": [0.74, 0.46, 0.05],
+      "location": [0, 0, 0.345],
+      "color": "#8c6239"
+    },
+    {
+      "name": "latch",
+      "primitive": "cube",
+      "size": [0.08, 0.04, 0.12],
+      "location": [0, -0.24, 0.28],
+      "color": "#3a3a40"
+    }
+  ]
+}

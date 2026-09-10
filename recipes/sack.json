@@ -1,0 +1,30 @@
+{
+  "id": "sack",
+  "name": "Sack",
+  "description": "Grain sack with a tied neck. Three cubes.",
+  "tags": ["storage", "warehouse", "props"],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [0.28, 0.22, 0.08],
+      "location": [0, 0, 0.04],
+      "color": "#c4b59a"
+    },
+    {
+      "name": "body",
+      "primitive": "cube",
+      "size": [0.24, 0.2, 0.16],
+      "location": [0, 0, 0.16],
+      "color": "#b39b7a"
+    },
+    {
+      "name": "neck",
+      "primitive": "cube",
+      "size": [0.1, 0.1, 0.07],
+      "location": [0, 0, 0.275],
+      "color": "#8c6239"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "lodsmith set",
+  "description": "Copy sets/tavern.json. The file stem must equal id. Every items[].recipe must be a shipped recipe id. Optional repeat+offset tiles a prop (see yard, crate_stack).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "items"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$", "minLength": 2 },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["recipe"],
+        "properties": {
+          "recipe": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+          "location": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": { "type": "number" }
+          },
+          "rotation_deg": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": { "type": "number" }
+          },
+          "repeat": { "type": "integer", "minimum": 1, "maximum": 32 },
+          "scale": { "type": "number", "exclusiveMinimum": 0 },
+          "offset": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": { "type": "number" }
+          }
+        }
+      }
+    }
+  }
+}

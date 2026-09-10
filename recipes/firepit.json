@@ -1,0 +1,73 @@
+{
+  "id": "firepit",
+  "name": "Firepit",
+  "description": "Stone ring, coal, flame cube, and a log. Cubes, not a cloud fireball.",
+  "tags": ["camp", "fire", "outdoor", "coals"],
+  "target_tris": 108,
+  "parts": [
+    {
+      "name": "stone_n",
+      "primitive": "cube",
+      "size": [0.18, 0.14, 0.12],
+      "location": [0, 0.32, 0.06],
+      "color": "#7a7a72"
+    },
+    {
+      "name": "stone_e",
+      "primitive": "cube",
+      "size": [0.14, 0.18, 0.12],
+      "location": [0.32, 0, 0.06],
+      "color": "#5c5c56"
+    },
+    {
+      "name": "stone_s",
+      "primitive": "cube",
+      "size": [0.18, 0.14, 0.12],
+      "location": [0, -0.32, 0.06],
+      "color": "#7a7a72"
+    },
+    {
+      "name": "stone_w",
+      "primitive": "cube",
+      "size": [0.14, 0.18, 0.12],
+      "location": [-0.32, 0, 0.06],
+      "color": "#5c5c56"
+    },
+    {
+      "name": "stone_ne",
+      "primitive": "cube",
+      "size": [0.14, 0.14, 0.1],
+      "location": [0.22, 0.22, 0.05],
+      "color": "#6a6a64"
+    },
+    {
+      "name": "stone_nw",
+      "primitive": "cube",
+      "size": [0.14, 0.14, 0.1],
+      "location": [-0.22, 0.22, 0.05],
+      "color": "#6a6a64"
+    },
+    {
+      "name": "coal",
+      "primitive": "cube",
+      "size": [0.36, 0.36, 0.06],
+      "location": [0, 0, 0.04],
+      "color": "#2a2a28"
+    },
+    {
+      "name": "flame",
+      "primitive": "cube",
+      "size": [0.12, 0.12, 0.22],
+      "location": [0, 0, 0.2],
+      "color": "#f4a261"
+    },
+    {
+      "name": "log",
+      "primitive": "cube",
+      "size": [0.4, 0.08, 0.08],
+      "location": [0.04, 0.08, 0.1],
+      "rotation_deg": [0, 0, 22],
+      "color": "#4a2c17"
+    }
+  ]
+}

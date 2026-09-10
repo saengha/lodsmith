@@ -1,0 +1,18 @@
+{
+  "id": "tavern",
+  "name": "Tavern corner",
+  "description": "Table, stools, barrel, crate, mug, candle, lantern, and a wall shelf.",
+  "tags": ["tavern", "furniture", "indoor"],
+  "items": [
+    { "recipe": "table", "location": [0, 0, 0] },
+    { "recipe": "stool", "location": [-0.75, 0.55, 0] },
+    { "recipe": "stool", "location": [0.75, 0.55, 0] },
+    { "recipe": "stool", "location": [0, -0.75, 0] },
+    { "recipe": "mug", "location": [0.2, 0.05, 0.76] },
+    { "recipe": "candle", "location": [-0.25, -0.08, 0.76] },
+    { "recipe": "barrel", "location": [1.7, -0.5, 0] },
+    { "recipe": "crate", "location": [1.7, 0.55, 0] },
+    { "recipe": "lantern", "location": [-1.5, 0.2, 0] },
+    { "recipe": "shelf", "location": [0, 1.2, 0] }
+  ]
+}

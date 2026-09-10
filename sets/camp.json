@@ -1,0 +1,16 @@
+{
+  "id": "camp",
+  "name": "Camp",
+  "description": "Tent, firepit, bench, open barrel, open crate, lantern, and a sack.",
+  "tags": ["outdoor", "camp", "trail"],
+  "items": [
+    { "recipe": "tent", "location": [-2.5, 0.35, 0] },
+    { "recipe": "firepit", "location": [0, -1.45, 0] },
+    { "recipe": "bench", "location": [0, 0.4, 0] },
+    { "recipe": "barrel_open", "location": [-1.1, -0.3, 0] },
+    { "recipe": "crate_open", "location": [1.1, -0.2, 0] },
+    { "recipe": "crate_lid_ajar", "location": [1.1, 0.9, 0] },
+    { "recipe": "lantern", "location": [0.35, -0.7, 0] },
+    { "recipe": "sack", "location": [-0.55, -0.55, 0] }
+  ]
+}

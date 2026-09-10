@@ -1,0 +1,65 @@
+{
+  "id": "pallet",
+  "name": "Pallet",
+  "description": "Three stringers and five deck boards.",
+  "tags": ["shipping", "wood", "warehouse"],
+  "target_tris": 96,
+  "parts": [
+    {
+      "name": "stringer_left",
+      "primitive": "cube",
+      "size": [1.2, 0.1, 0.1],
+      "location": [0, -0.4, 0.05],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "stringer_center",
+      "primitive": "cube",
+      "size": [1.2, 0.1, 0.1],
+      "location": [0, 0, 0.05],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "stringer_right",
+      "primitive": "cube",
+      "size": [1.2, 0.1, 0.1],
+      "location": [0, 0.4, 0.05],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "deck_0",
+      "primitive": "cube",
+      "size": [0.18, 1.0, 0.04],
+      "location": [-0.48, 0, 0.12],
+      "color": "#8c6239"
+    },
+    {
+      "name": "deck_1",
+      "primitive": "cube",
+      "size": [0.18, 1.0, 0.04],
+      "location": [-0.24, 0, 0.12],
+      "color": "#7a5429"
+    },
+    {
+      "name": "deck_2",
+      "primitive": "cube",
+      "size": [0.18, 1.0, 0.04],
+      "location": [0, 0, 0.12],
+      "color": "#8c6239"
+    },
+    {
+      "name": "deck_3",
+      "primitive": "cube",
+      "size": [0.18, 1.0, 0.04],
+      "location": [0.24, 0, 0.12],
+      "color": "#7a5429"
+    },
+    {
+      "name": "deck_4",
+      "primitive": "cube",
+      "size": [0.18, 1.0, 0.04],
+      "location": [0.48, 0, 0.12],
+      "color": "#8c6239"
+    }
+  ]
+}

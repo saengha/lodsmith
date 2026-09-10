@@ -1,0 +1,87 @@
+{
+  "id": "barrel",
+  "name": "Barrel",
+  "description": "Octagonal stave barrel with floor and lid. Cube staves only.",
+  "tags": ["storage", "wood", "tavern"],
+  "target_tris": 120,
+  "parts": [
+    {
+      "name": "floor",
+      "primitive": "cube",
+      "size": [0.52, 0.52, 0.04],
+      "location": [0, 0, 0.02],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "stave_0",
+      "primitive": "cube",
+      "size": [0.12, 0.035, 0.5],
+      "location": [0.29, 0, 0.29],
+      "rotation_deg": [0, 0, 0],
+      "color": "#6b3a22"
+    },
+    {
+      "name": "stave_1",
+      "primitive": "cube",
+      "size": [0.12, 0.035, 0.5],
+      "location": [0.205, 0.205, 0.29],
+      "rotation_deg": [0, 0, 45],
+      "color": "#7a5429"
+    },
+    {
+      "name": "stave_2",
+      "primitive": "cube",
+      "size": [0.12, 0.035, 0.5],
+      "location": [0, 0.29, 0.29],
+      "rotation_deg": [0, 0, 90],
+      "color": "#6b3a22"
+    },
+    {
+      "name": "stave_3",
+      "primitive": "cube",
+      "size": [0.12, 0.035, 0.5],
+      "location": [-0.205, 0.205, 0.29],
+      "rotation_deg": [0, 0, 135],
+      "color": "#7a5429"
+    },
+    {
+      "name": "stave_4",
+      "primitive": "cube",
+      "size": [0.12, 0.035, 0.5],
+      "location": [-0.29, 0, 0.29],
+      "rotation_deg": [0, 0, 180],
+      "color": "#6b3a22"
+    },
+    {
+      "name": "stave_5",
+      "primitive": "cube",
+      "size": [0.12, 0.035, 0.5],
+      "location": [-0.205, -0.205, 0.29],
+      "rotation_deg": [0, 0, 225],
+      "color": "#7a5429"
+    },
+    {
+      "name": "stave_6",
+      "primitive": "cube",
+      "size": [0.12, 0.035, 0.5],
+      "location": [0, -0.29, 0.29],
+      "rotation_deg": [0, 0, 270],
+      "color": "#6b3a22"
+    },
+    {
+      "name": "stave_7",
+      "primitive": "cube",
+      "size": [0.12, 0.035, 0.5],
+      "location": [0.205, -0.205, 0.29],
+      "rotation_deg": [0, 0, 315],
+      "color": "#7a5429"
+    },
+    {
+      "name": "lid",
+      "primitive": "cube",
+      "size": [0.54, 0.54, 0.04],
+      "location": [0, 0, 0.56],
+      "color": "#4a2c17"
+    }
+  ]
+}

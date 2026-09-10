@@ -1,0 +1,16 @@
+{
+  "id": "inn",
+  "name": "Inn room",
+  "description": "Bed, chair, table with book bottle candle, chest, and a wall shelf. Not the tavern corner: that set is already claimed.",
+  "tags": ["inn", "indoor", "lodging", "furniture"],
+  "items": [
+    { "recipe": "bed", "location": [0, 0, 0] },
+    { "recipe": "chest", "location": [0, -1.55, 0] },
+    { "recipe": "table", "location": [1.8, 0.2, 0] },
+    { "recipe": "chair", "location": [1.8, -0.7, 0] },
+    { "recipe": "book", "location": [1.55, 0.05, 0.76] },
+    { "recipe": "bottle", "location": [2.05, 0.3, 0.76] },
+    { "recipe": "candle", "location": [1.8, 0.2, 0.76] },
+    { "recipe": "shelf", "location": [1.8, 1.25, 0] }
+  ]
+}

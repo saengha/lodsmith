@@ -1,0 +1,58 @@
+{
+  "id": "anvil",
+  "name": "Anvil",
+  "description": "Base, waist, body, horn, heel, face, and step. anvil.horn is a cube. The id is claimed.",
+  "tags": ["smithy", "metal", "tool", "forge"],
+  "target_tris": 84,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [0.38, 0.24, 0.08],
+      "location": [0, 0, 0.04],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "waist",
+      "primitive": "cube",
+      "size": [0.14, 0.12, 0.16],
+      "location": [0, 0, 0.16],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "body",
+      "primitive": "cube",
+      "size": [0.36, 0.18, 0.14],
+      "location": [-0.02, 0, 0.31],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "horn",
+      "primitive": "cube",
+      "size": [0.26, 0.07, 0.07],
+      "location": [0.28, 0, 0.32],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "heel",
+      "primitive": "cube",
+      "size": [0.1, 0.16, 0.12],
+      "location": [-0.26, 0, 0.32],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "face",
+      "primitive": "cube",
+      "size": [0.28, 0.16, 0.035],
+      "location": [-0.02, 0, 0.397],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "step",
+      "primitive": "cube",
+      "size": [0.1, 0.18, 0.05],
+      "location": [-0.14, 0, 0.265],
+      "color": "#2c2c30"
+    }
+  ]
+}

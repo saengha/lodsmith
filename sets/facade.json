@@ -1,0 +1,12 @@
+{
+  "id": "facade",
+  "name": "Wall facade",
+  "description": "Door, two windows, and a wall torch.",
+  "tags": ["architecture", "indoor", "outdoor"],
+  "items": [
+    { "recipe": "door", "location": [0, 0, 0] },
+    { "recipe": "window", "location": [-1.55, 0, 0] },
+    { "recipe": "window", "location": [1.55, 0, 0] },
+    { "recipe": "torch", "location": [0.72, -0.14, 0] }
+  ]
+}

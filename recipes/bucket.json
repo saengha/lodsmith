@@ -1,0 +1,44 @@
+{
+  "id": "bucket",
+  "name": "Bucket",
+  "description": "Open bucket: floor and four walls.",
+  "tags": ["props", "camp", "warehouse"],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "floor",
+      "primitive": "cube",
+      "size": [0.24, 0.24, 0.03],
+      "location": [0, 0, 0.015],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "wall_front",
+      "primitive": "cube",
+      "size": [0.24, 0.03, 0.22],
+      "location": [0, -0.105, 0.14],
+      "color": "#7a5429"
+    },
+    {
+      "name": "wall_back",
+      "primitive": "cube",
+      "size": [0.24, 0.03, 0.22],
+      "location": [0, 0.105, 0.14],
+      "color": "#7a5429"
+    },
+    {
+      "name": "wall_left",
+      "primitive": "cube",
+      "size": [0.03, 0.18, 0.22],
+      "location": [-0.105, 0, 0.14],
+      "color": "#6b4622"
+    },
+    {
+      "name": "wall_right",
+      "primitive": "cube",
+      "size": [0.03, 0.18, 0.22],
+      "location": [0.105, 0, 0.14],
+      "color": "#6b4622"
+    }
+  ]
+}

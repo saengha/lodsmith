@@ -1,0 +1,79 @@
+{
+  "id": "bed",
+  "name": "Bed",
+  "description": "Four posts, rails, slat, mattress, pillow, and headboard. lodsmith.bed.pillow is a cube. 120 tris, not a fused cloud mattress.",
+  "tags": ["furniture", "indoor", "sleep"],
+  "target_tris": 120,
+  "parts": [
+    {
+      "name": "post_fl",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 0.4],
+      "location": [-0.46, -0.95, 0.2],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "post_fr",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 0.4],
+      "location": [0.46, -0.95, 0.2],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "post_bl",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 0.7],
+      "location": [-0.46, 0.95, 0.35],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "post_br",
+      "primitive": "cube",
+      "size": [0.08, 0.08, 0.7],
+      "location": [0.46, 0.95, 0.35],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "rail_left",
+      "primitive": "cube",
+      "size": [0.05, 1.82, 0.08],
+      "location": [-0.46, 0, 0.32],
+      "color": "#6b4622"
+    },
+    {
+      "name": "rail_right",
+      "primitive": "cube",
+      "size": [0.05, 1.82, 0.08],
+      "location": [0.46, 0, 0.32],
+      "color": "#6b4622"
+    },
+    {
+      "name": "slat",
+      "primitive": "cube",
+      "size": [0.88, 1.8, 0.04],
+      "location": [0, 0, 0.28],
+      "color": "#7a5429"
+    },
+    {
+      "name": "mattress",
+      "primitive": "cube",
+      "size": [0.9, 1.84, 0.12],
+      "location": [0, 0, 0.36],
+      "color": "#c4b59a"
+    },
+    {
+      "name": "pillow",
+      "primitive": "cube",
+      "size": [0.42, 0.24, 0.08],
+      "location": [0, 0.72, 0.46],
+      "color": "#e8e0d0"
+    },
+    {
+      "name": "headboard",
+      "primitive": "cube",
+      "size": [1.0, 0.08, 0.55],
+      "location": [0, 0.98, 0.55],
+      "color": "#4a2c17"
+    }
+  ]
+}

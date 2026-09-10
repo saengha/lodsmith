@@ -1,0 +1,30 @@
+{
+  "id": "candle",
+  "name": "Candle",
+  "description": "Short candle on a dish. Flame is a separate cube.",
+  "tags": ["light", "tavern", "props"],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "dish",
+      "primitive": "cube",
+      "size": [0.1, 0.1, 0.02],
+      "location": [0, 0, 0.01],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "stick",
+      "primitive": "cube",
+      "size": [0.03, 0.03, 0.12],
+      "location": [0, 0, 0.08],
+      "color": "#f0e6d0"
+    },
+    {
+      "name": "flame",
+      "primitive": "cube",
+      "size": [0.025, 0.025, 0.04],
+      "location": [0, 0, 0.16],
+      "color": "#f4d35e"
+    }
+  ]
+}

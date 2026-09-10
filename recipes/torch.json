@@ -1,0 +1,31 @@
+{
+  "id": "torch",
+  "name": "Wall torch",
+  "description": "Wall bracket, stick, and a flame cube.",
+  "tags": ["light", "indoor", "tavern"],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "bracket",
+      "primitive": "cube",
+      "size": [0.08, 0.04, 0.08],
+      "location": [0, 0.08, 1.4],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "stick",
+      "primitive": "cube",
+      "size": [0.04, 0.04, 0.32],
+      "location": [0, 0, 1.52],
+      "rotation_deg": [18, 0, 0],
+      "color": "#6b3a22"
+    },
+    {
+      "name": "flame",
+      "primitive": "cube",
+      "size": [0.07, 0.07, 0.1],
+      "location": [0, -0.08, 1.72],
+      "color": "#f4a261"
+    }
+  ]
+}

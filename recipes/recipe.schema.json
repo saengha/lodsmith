@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lodsmith.dev/recipes/recipe.schema.json",
+  "title": "lodsmith recipe",
+  "description": "Copy recipes/crate.json. The file stem must equal id. python -m addon validate skips *.schema.json. target_tris must be 12 × cube parts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "target_tris", "parts"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "minLength": 2,
+      "description": "Must match the filename stem. Reserved/blocked slugs fail python -m addon validate."
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" }
+    },
+    "target_tris": {
+      "type": "integer",
+      "minimum": 12,
+      "description": "Must equal 12 × number of cube parts."
+    },
+    "parts": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/part" }
+    }
+  },
+  "$defs": {
+    "vec3": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": { "type": "number" }
+    },
+    "part": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "primitive", "size", "location"],
+      "properties": {
+        "name": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+        "primitive": { "const": "cube" },
+        "size": { "$ref": "#/$defs/vec3" },
+        "location": { "$ref": "#/$defs/vec3" },
+        "rotation_deg": { "$ref": "#/$defs/vec3" },
+        "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" }
+      }
+    }
+  }
+}
