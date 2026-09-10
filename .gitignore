@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+*.blend1
+*.blend2
+.DS_Store
+Thumbs.db

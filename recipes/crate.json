@@ -1,0 +1,44 @@
+{
+  "id": "crate",
+  "name": "Crate",
+  "description": "Lidded shipping crate with separate walls, floor, and lid.",
+  "target_tris": 72,
+  "parts": [
+    {
+      "name": "floor",
+      "primitive": "cube",
+      "size": [0.8, 0.6, 0.04],
+      "location": [0, 0, 0.02]
+    },
+    {
+      "name": "wall_front",
+      "primitive": "cube",
+      "size": [0.8, 0.04, 0.42],
+      "location": [0, -0.28, 0.25]
+    },
+    {
+      "name": "wall_back",
+      "primitive": "cube",
+      "size": [0.8, 0.04, 0.42],
+      "location": [0, 0.28, 0.25]
+    },
+    {
+      "name": "wall_left",
+      "primitive": "cube",
+      "size": [0.04, 0.52, 0.42],
+      "location": [-0.38, 0, 0.25]
+    },
+    {
+      "name": "wall_right",
+      "primitive": "cube",
+      "size": [0.04, 0.52, 0.42],
+      "location": [0.38, 0, 0.25]
+    },
+    {
+      "name": "lid",
+      "primitive": "cube",
+      "size": [0.84, 0.64, 0.05],
+      "location": [0, 0, 0.485]
+    }
+  ]
+}
