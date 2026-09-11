@@ -1,10 +1,51 @@
 # lodsmith
 
+[![lodsmith on OSSDrop](https://ossdrop.com/badge/lodsmith)](https://ossdrop.com/tool/lodsmith)
+![License](https://img.shields.io/badge/license-Apache--2.0-blue)
+![Blender](https://img.shields.io/badge/Blender-4.2%2B-orange)
+
 Local, recipe-driven **low-poly props** for indie games. You install a Blender add-on, pick `crate`, hit Build, and get named mesh parts with a known triangle budget — no cloud account, no `exec()` of arbitrary `bpy`.
+
+## Demo
+
+
+
+
+https://github.com/user-attachments/assets/abafca40-edd1-44c6-9edf-cc3af8e0bce3
+
+
+
+
+<!--
+여기에 짧은 GIF 또는 영상을 넣으세요. 예시:
+
+![demo](docs/demo.gif)
+
+또는 유튜브에 올렸다면 썸네일 클릭 링크로:
+
+[![Watch the demo](docs/thumbnail.png)](https://youtu.be/영상ID)
+
+GitHub는 리포 안에 이미지/GIF/mp4를 커밋해두면 바로 렌더링합니다.
+mp4는 README에서 자동재생이 안 되니, 첫 화면용으로는 GIF로 변환해서 올리고
+전체 길이 영상은 아래처럼 링크만 거는 걸 추천합니다.
+-->
 
 ## Why this exists
 
-Most Blender + AI tools either let an agent run any Python in your scene, or pull a fused mesh from a hosted generator (Rodin, Tripo, Hunyuan). Indie pipelines need the opposite: **separate parts, predictable poly counts, GLB you can drop in a game**.
+**Most 3D asset workflows are heavy before you even open the file.** The usual path: visit a marketplace → create an account → search through listings → read the license → download a zip → import and re-optimize until the mesh fits your poly budget. What you get at the end is one fused, unnamed mesh built for someone else's use case, which you then have to cut down to size yourself.
+
+Indie games shipping to mobile, WebGL, or VR need the opposite: **props that are light by construction, not lightened afterward.** lodsmith skips the marketplace step entirely.
+
+| Typical asset workflow | lodsmith |
+| --- | --- |
+| Visit a marketplace site | Open the Blender sidebar |
+| Create an account | — |
+| Search/browse for the right asset | Type a prompt (`tavern`, `모루`) |
+| Read the license | Apache-2.0, always, no exceptions |
+| Download a zip | — |
+| Import, then retopo/optimize to hit your budget | Built to `target_tris` from the start, named parts, ready to export |
+
+Most Blender + AI tools take one of two other roads instead: let an agent run arbitrary Python in your scene, or hand you a fused mesh from a hosted generator (Rodin, Tripo, Hunyuan) — a new, unnamed mesh every prompt. Indie pipelines need the opposite of both: **separate parts, predictable poly counts, GLB you can drop in a game.**
 
 lodsmith starts as JSON recipes plus Blender operators. A local LLM planner can come later; today `lodsmith plan` is a keyword matcher that never leaves the machine. It is not a wrapper around those cloud mesh APIs.
 
@@ -19,11 +60,18 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Install (Blender 4.2+)
 
 1. Clone this repository.
-2. In Blender: **Edit → Preferences → Get Extensions → Install from Disk** (or **Add-ons → Install** on older layouts) and select this folder — the one that contains `blender_manifest.toml`.
+2. In Blender:
+   - **Edit → Preferences → Get Extensions → Install from Disk** (or **Add-ons → Install** on older layouts)
+   - Select this folder — the one that contains `blender_manifest.toml`.
 3. Enable **Lodsmith**.
-4. 3D Viewport → sidebar (N) → **Lodsmith**. Type a prompt (`tavern`, `smithy`, `모루`, `모닥불`, `선술집`) → **Plan** or **Build prompt**. Or pick a single recipe → **Build**. **Validate** checks names and triangle count. **Export GLB** writes the active parent and its children.
+4. Open the panel and build:
+   - 3D Viewport → sidebar (N) → **Lodsmith**
+   - Type a prompt (`tavern`, `smithy`, `모루`, `모닥불`, `선술집`) → **Plan** or **Build prompt**
+   - Or pick a single recipe → **Build**
+   - **Validate** checks names and triangle count
+   - **Export GLB** writes the active parent and its children
 
-You should get a parent like `lodsmith.crate` with named parts (floor, walls, lid) — not a single cube. Builds go in a `lodsmith` collection. Building the same recipe again replaces the previous parent. A set lands under `lodsmith.set.tavern`. **Snap Z to ground** keeps the 3D cursor’s XY and plants props at Z=0. **Clear lodsmith** deletes lodsmith objects. Build hides the factory `Cube` so a 0.8m crate is not swallowed by the 2m default mesh.
+You should get a parent like `lodsmith.crate` with named parts (floor, walls, lid) — not a single cube. Builds go in a `lodsmith` collection. Building the same recipe again replaces the previous parent. A set lands under `lodsmith.set.tavern`. **Snap Z to ground** keeps the 3D cursor's XY and plants props at Z=0. **Clear lodsmith** deletes lodsmith objects. Build hides the factory `Cube` so a 0.8m crate is not swallowed by the 2m default mesh.
 
 Shipped recipes: `crate`, `crate_open`, `crate_lid_ajar`, `crate_battens`, `barrel`, `barrel_open`, `pallet`, `bench`, `stool`, `table`, `lantern`, `fence_post`, `signpost`, `chest`, `mug`, `candle`, `sack`, `shelf`, `door`, `torch`, `bucket`, `window`, `ladder`, `cart`, `well`, `bed`, `chair`, `anvil`, `firepit`, `tent`, `bottle`, `book`, `hammer`, `cauldron`.
 
