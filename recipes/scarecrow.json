@@ -1,0 +1,103 @@
+{
+  "id": "scarecrow",
+  "name": "Scarecrow",
+  "description": "Pole, torso, arms, head, and hat. scarecrow.hat is selectable.",
+  "tags": [
+    "farm",
+    "outdoor",
+    "props"
+  ],
+  "target_tris": 72,
+  "parts": [
+    {
+      "name": "pole",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.06,
+        1.1
+      ],
+      "location": [
+        0,
+        0,
+        0.55
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "torso",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.12,
+        0.32
+      ],
+      "location": [
+        0,
+        0,
+        0.75
+      ],
+      "color": "#5a3a2a"
+    },
+    {
+      "name": "arm_l",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.06,
+        0.06
+      ],
+      "location": [
+        -0.24,
+        0,
+        0.82
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "arm_r",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.06,
+        0.06
+      ],
+      "location": [
+        0.24,
+        0,
+        0.82
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "head",
+      "primitive": "cube",
+      "size": [
+        0.12,
+        0.12,
+        0.12
+      ],
+      "location": [
+        0,
+        0,
+        0.98
+      ],
+      "color": "#d2b48c"
+    },
+    {
+      "name": "hat",
+      "primitive": "cube",
+      "size": [
+        0.18,
+        0.18,
+        0.05
+      ],
+      "location": [
+        0,
+        0,
+        1.08
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

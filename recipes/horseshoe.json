@@ -1,0 +1,58 @@
+{
+  "id": "horseshoe",
+  "name": "Horseshoe",
+  "description": "U-shaped shoe: web and two heels. horseshoe.web is selectable.",
+  "tags": [
+    "smithy",
+    "metal",
+    "props"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "web",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.12,
+        0.02
+      ],
+      "location": [
+        0,
+        0.02,
+        0.01
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "heel_l",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.1,
+        0.02
+      ],
+      "location": [
+        -0.055,
+        -0.04,
+        0.01
+      ],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "heel_r",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.1,
+        0.02
+      ],
+      "location": [
+        0.055,
+        -0.04,
+        0.01
+      ],
+      "color": "#5a5a62"
+    }
+  ]
+}

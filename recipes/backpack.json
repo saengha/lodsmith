@@ -1,0 +1,73 @@
+{
+  "id": "backpack",
+  "name": "Backpack",
+  "description": "Travel pack with a flap and two straps. backpack.flap is selectable.",
+  "tags": [
+    "camp",
+    "props",
+    "cloth"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "pack",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.14,
+        0.28
+      ],
+      "location": [
+        0,
+        0,
+        0.14
+      ],
+      "color": "#5a3a2a"
+    },
+    {
+      "name": "flap",
+      "primitive": "cube",
+      "size": [
+        0.24,
+        0.16,
+        0.04
+      ],
+      "location": [
+        0,
+        0.02,
+        0.3
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "strap_l",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.02,
+        0.22
+      ],
+      "location": [
+        -0.08,
+        -0.09,
+        0.14
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "strap_r",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.02,
+        0.22
+      ],
+      "location": [
+        0.08,
+        -0.09,
+        0.14
+      ],
+      "color": "#6b4622"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "vise",
+  "name": "Vise",
+  "description": "Bench vise: fixed jaw, moving jaw, and screw. vise.screw is a cube.",
+  "tags": [
+    "smithy",
+    "tool",
+    "metal"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.12,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.02
+      ],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "jaw_fixed",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.12,
+        0.1
+      ],
+      "location": [
+        -0.05,
+        0,
+        0.09
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "jaw_move",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.12,
+        0.1
+      ],
+      "location": [
+        0.06,
+        0,
+        0.09
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "screw",
+      "primitive": "cube",
+      "size": [
+        0.14,
+        0.03,
+        0.03
+      ],
+      "location": [
+        0.02,
+        0,
+        0.05
+      ],
+      "color": "#5a5a62"
+    }
+  ]
+}

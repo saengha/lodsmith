@@ -1,0 +1,73 @@
+{
+  "id": "axe",
+  "name": "Axe",
+  "description": "Felling axe: bit, eye, haft, and butt. axe.bit is a cube. Not the smith hammer.",
+  "tags": [
+    "armory",
+    "tool",
+    "weapon"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "haft",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.04,
+        0.55
+      ],
+      "location": [
+        0,
+        0,
+        0.28
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "eye",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.05,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.58
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "bit",
+      "primitive": "cube",
+      "size": [
+        0.14,
+        0.03,
+        0.1
+      ],
+      "location": [
+        0.08,
+        0,
+        0.58
+      ],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "butt",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.05,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.02
+      ],
+      "color": "#6b4622"
+    }
+  ]
+}

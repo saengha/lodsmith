@@ -1,0 +1,58 @@
+{
+  "id": "mirror",
+  "name": "Mirror",
+  "description": "Standing mirror: frame, glass, and a foot. mirror.glass is selectable.",
+  "tags": [
+    "furniture",
+    "indoor",
+    "props"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "frame",
+      "primitive": "cube",
+      "size": [
+        0.4,
+        0.06,
+        0.7
+      ],
+      "location": [
+        0,
+        0,
+        0.55
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "glass",
+      "primitive": "cube",
+      "size": [
+        0.32,
+        0.03,
+        0.58
+      ],
+      "location": [
+        0,
+        -0.02,
+        0.55
+      ],
+      "color": "#b8c8d8"
+    },
+    {
+      "name": "stand",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.16,
+        0.06
+      ],
+      "location": [
+        0,
+        0.04,
+        0.16
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

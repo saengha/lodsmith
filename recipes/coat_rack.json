@@ -1,0 +1,88 @@
+{
+  "id": "coat_rack",
+  "name": "Coat rack",
+  "description": "Standing rack with three pegs. coat_rack.peg_b is selectable.",
+  "tags": [
+    "furniture",
+    "indoor",
+    "wood"
+  ],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.22,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.02
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "post",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.05,
+        1.2
+      ],
+      "location": [
+        0,
+        0,
+        0.64
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "peg_a",
+      "primitive": "cube",
+      "size": [
+        0.12,
+        0.03,
+        0.03
+      ],
+      "location": [
+        0.08,
+        0,
+        1.1
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "peg_b",
+      "primitive": "cube",
+      "size": [
+        0.12,
+        0.03,
+        0.03
+      ],
+      "location": [
+        -0.06,
+        0.08,
+        1.02
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "peg_c",
+      "primitive": "cube",
+      "size": [
+        0.12,
+        0.03,
+        0.03
+      ],
+      "location": [
+        -0.06,
+        -0.08,
+        1.02
+      ],
+      "color": "#7a5429"
+    }
+  ]
+}

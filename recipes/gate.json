@@ -1,0 +1,88 @@
+{
+  "id": "gate",
+  "name": "Gate",
+  "description": "Yard gate: two posts, a leaf, latch, and hinge. gate.leaf is selectable. Not a building door.",
+  "tags": [
+    "outdoor",
+    "wood",
+    "architecture"
+  ],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "post_l",
+      "primitive": "cube",
+      "size": [
+        0.1,
+        0.1,
+        1.1
+      ],
+      "location": [
+        -0.55,
+        0,
+        0.55
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "post_r",
+      "primitive": "cube",
+      "size": [
+        0.1,
+        0.1,
+        1.1
+      ],
+      "location": [
+        0.55,
+        0,
+        0.55
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "leaf",
+      "primitive": "cube",
+      "size": [
+        1.0,
+        0.06,
+        0.9
+      ],
+      "location": [
+        0,
+        0,
+        0.5
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "latch",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.04,
+        0.04
+      ],
+      "location": [
+        0.42,
+        -0.05,
+        0.5
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "hinge",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.06,
+        0.1
+      ],
+      "location": [
+        -0.48,
+        0.06,
+        0.5
+      ],
+      "color": "#5a5a62"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "trough",
+  "name": "Trough",
+  "description": "Livestock watering trough with two legs. trough.water is selectable.",
+  "tags": [
+    "farm",
+    "water",
+    "outdoor"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "basin",
+      "primitive": "cube",
+      "size": [
+        0.7,
+        0.28,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.18
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "leg_l",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.24,
+        0.16
+      ],
+      "location": [
+        -0.28,
+        0,
+        0.08
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "leg_r",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.24,
+        0.16
+      ],
+      "location": [
+        0.28,
+        0,
+        0.08
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "water",
+      "primitive": "cube",
+      "size": [
+        0.62,
+        0.22,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.2
+      ],
+      "color": "#3a5a7a"
+    }
+  ]
+}

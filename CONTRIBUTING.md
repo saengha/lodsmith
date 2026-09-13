@@ -4,7 +4,7 @@ The unit of contribution is a **JSON recipe or set**. You do not need to touch P
 
 Your merged `id` becomes `lodsmith.<id>` with named parts (`crate.lid`, 72 tris on the shipped crate). That is the credit: a name agents Build and a game can select. We do not issue tokens, paid slots, or fake founder badges. Don't exec bpy. The IKEA step is `python -m addon new recipe <id>` — then you own the parts.
 
-The useful tavern / warehouse / camp / smithy vocabulary is finite. About 34 recipes exist. A careful new prop is a first PR; a pile of near-copies is not. `crate.lid` and `anvil.horn` are taken.
+The useful tavern / warehouse / camp / smithy vocabulary is finite. **100 recipes** exist. A careful new prop is a first PR; a pile of near-copies is not. `crate.lid`, `anvil.horn`, `bellows.nozzle`, and `wardrobe.door_l` are taken.
 
 ## Names that get closed
 
@@ -54,9 +54,7 @@ Planner synonyms, Korean aliases, and README lists are optional. Maintainers can
 
 ## Names still open (examples, not a quota)
 
-Comment first. These are not bounties and not a promise we will merge a thin cube stack. Claimed this round: `bed`, `chair`, `anvil`, `firepit`, `tent`, `bottle`, `book`, `hammer`, `cauldron`, plus sets `smithy` and `inn`.
-
-Recipes still unnamed: `bellows`, `grindstone`, `wardrobe`.
+Comment first. These are not bounties and not a promise we will merge a thin cube stack. Claimed this round includes `bellows`, `grindstone`, `wardrobe`, plus sets `dungeon`, `kitchen`, `armory`, and `farm`.
 
 Sets that can land on **shipped** recipes only, e.g. `dock` (`crate`, `barrel`, `pallet`). Do not reship `tavern` as another pub corner.
 

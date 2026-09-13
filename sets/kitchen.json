@@ -1,0 +1,17 @@
+{
+  "id": "kitchen",
+  "name": "Kitchen",
+  "description": "Board, knife, pan, kettle, plate, bowl, loaf, and cheese.",
+  "tags": ["kitchen", "food", "indoor"],
+  "items": [
+    { "recipe": "cutting_board", "location": [0, 0, 0.76] },
+    { "recipe": "knife", "location": [0.12, 0.08, 0.78] },
+    { "recipe": "pan", "location": [-0.7, 0.15, 0] },
+    { "recipe": "kettle", "location": [-0.7, -0.35, 0] },
+    { "recipe": "plate", "location": [0.35, -0.1, 0.76] },
+    { "recipe": "bowl", "location": [0.55, 0.15, 0.76] },
+    { "recipe": "loaf", "location": [0.2, 0.2, 0.76] },
+    { "recipe": "cheese", "location": [-0.15, -0.15, 0.76] },
+    { "recipe": "table", "location": [0, 0, 0] }
+  ]
+}

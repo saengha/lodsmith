@@ -1,0 +1,88 @@
+{
+  "id": "wagon_wheel",
+  "name": "Wagon wheel",
+  "description": "Spare wheel: hub and four rim blocks. wagon_wheel.hub is selectable.",
+  "tags": [
+    "farm",
+    "wood",
+    "props"
+  ],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "hub",
+      "primitive": "cube",
+      "size": [
+        0.1,
+        0.08,
+        0.1
+      ],
+      "location": [
+        0,
+        0,
+        0.22
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "rim_n",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.08,
+        0.28
+      ],
+      "location": [
+        0,
+        0,
+        0.4
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "rim_s",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.08,
+        0.28
+      ],
+      "location": [
+        0,
+        0,
+        0.04
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "rim_e",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.08,
+        0.08
+      ],
+      "location": [
+        0.18,
+        0,
+        0.22
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "rim_w",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.08,
+        0.08
+      ],
+      "location": [
+        -0.18,
+        0,
+        0.22
+      ],
+      "color": "#6b4622"
+    }
+  ]
+}

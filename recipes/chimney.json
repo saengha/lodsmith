@@ -1,0 +1,58 @@
+{
+  "id": "chimney",
+  "name": "Chimney",
+  "description": "Roof chimney stack with a cap and shoulder. chimney.cap is selectable.",
+  "tags": [
+    "architecture",
+    "stone",
+    "outdoor"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "shoulder",
+      "primitive": "cube",
+      "size": [
+        0.4,
+        0.4,
+        0.12
+      ],
+      "location": [
+        0,
+        0,
+        0.06
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "stack",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.28,
+        0.7
+      ],
+      "location": [
+        0,
+        0,
+        0.47
+      ],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "cap",
+      "primitive": "cube",
+      "size": [
+        0.34,
+        0.34,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.85
+      ],
+      "color": "#6a6a70"
+    }
+  ]
+}

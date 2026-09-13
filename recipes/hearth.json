@@ -1,0 +1,73 @@
+{
+  "id": "hearth",
+  "name": "Hearth",
+  "description": "Forge hearth: firebox, hood, and a short stack. hearth.firebox is selectable.",
+  "tags": [
+    "smithy",
+    "forge",
+    "stone"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [
+        0.7,
+        0.5,
+        0.12
+      ],
+      "location": [
+        0,
+        0,
+        0.06
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "firebox",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.32,
+        0.18
+      ],
+      "location": [
+        0,
+        0,
+        0.21
+      ],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "hood",
+      "primitive": "cube",
+      "size": [
+        0.4,
+        0.36,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.34
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "stack",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.16,
+        0.28
+      ],
+      "location": [
+        0,
+        0,
+        0.52
+      ],
+      "color": "#6a6a70"
+    }
+  ]
+}

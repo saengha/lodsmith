@@ -1,0 +1,15 @@
+{
+  "id": "farm",
+  "name": "Farm",
+  "description": "Trough, pump, hitch, hay bale, millstone, plow, and a scarecrow.",
+  "tags": ["farm", "outdoor", "village"],
+  "items": [
+    { "recipe": "trough", "location": [0.8, 0, 0] },
+    { "recipe": "pump", "location": [1.5, 0.4, 0] },
+    { "recipe": "hitch", "location": [-1.2, 0.3, 0] },
+    { "recipe": "hay_bale", "location": [-0.4, -0.7, 0] },
+    { "recipe": "millstone", "location": [0, 0.9, 0] },
+    { "recipe": "plow", "location": [1.2, -0.8, 0] },
+    { "recipe": "scarecrow", "location": [-1.6, -0.8, 0] }
+  ]
+}

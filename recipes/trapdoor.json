@@ -1,0 +1,73 @@
+{
+  "id": "trapdoor",
+  "name": "Trapdoor",
+  "description": "Floor hatch: frame, door, hinge, and a ring. trapdoor.door is selectable.",
+  "tags": [
+    "dungeon",
+    "wood",
+    "props"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "frame",
+      "primitive": "cube",
+      "size": [
+        0.7,
+        0.7,
+        0.05
+      ],
+      "location": [
+        0,
+        0,
+        0.025
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "door",
+      "primitive": "cube",
+      "size": [
+        0.58,
+        0.58,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.055
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "hinge",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.16,
+        0.03
+      ],
+      "location": [
+        0,
+        0.28,
+        0.08
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "ring",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.06,
+        0.03
+      ],
+      "location": [
+        0,
+        -0.16,
+        0.085
+      ],
+      "color": "#5a5a62"
+    }
+  ]
+}

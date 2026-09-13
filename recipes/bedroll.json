@@ -1,0 +1,58 @@
+{
+  "id": "bedroll",
+  "name": "Bedroll",
+  "description": "Rolled blanket with two straps. bedroll.strap_a is selectable.",
+  "tags": [
+    "camp",
+    "sleep",
+    "cloth"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "roll",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.16,
+        0.16
+      ],
+      "location": [
+        0,
+        0,
+        0.08
+      ],
+      "color": "#5a3a2a"
+    },
+    {
+      "name": "strap_a",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.18,
+        0.18
+      ],
+      "location": [
+        -0.08,
+        0,
+        0.08
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "strap_b",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.18,
+        0.18
+      ],
+      "location": [
+        0.08,
+        0,
+        0.08
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

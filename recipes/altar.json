@@ -1,0 +1,73 @@
+{
+  "id": "altar",
+  "name": "Altar",
+  "description": "Stone altar with a cloth and a candle pad. altar.slab is selectable.",
+  "tags": [
+    "dungeon",
+    "stone",
+    "indoor"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "plinth",
+      "primitive": "cube",
+      "size": [
+        0.5,
+        0.3,
+        0.4
+      ],
+      "location": [
+        0,
+        0,
+        0.2
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "slab",
+      "primitive": "cube",
+      "size": [
+        0.58,
+        0.36,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.43
+      ],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "cloth",
+      "primitive": "cube",
+      "size": [
+        0.2,
+        0.36,
+        0.02
+      ],
+      "location": [
+        0,
+        0,
+        0.47
+      ],
+      "color": "#6a4a6a"
+    },
+    {
+      "name": "pad",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.08,
+        0.02
+      ],
+      "location": [
+        0.18,
+        0,
+        0.48
+      ],
+      "color": "#e8e0d0"
+    }
+  ]
+}

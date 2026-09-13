@@ -1,0 +1,43 @@
+{
+  "id": "ingot",
+  "name": "Ingot",
+  "description": "Cast metal bar with a maker stamp. ingot.stamp is a cube.",
+  "tags": [
+    "smithy",
+    "metal",
+    "props"
+  ],
+  "target_tris": 24,
+  "parts": [
+    {
+      "name": "bar",
+      "primitive": "cube",
+      "size": [
+        0.2,
+        0.08,
+        0.05
+      ],
+      "location": [
+        0,
+        0,
+        0.025
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "stamp",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.04,
+        0.01
+      ],
+      "location": [
+        0.04,
+        0,
+        0.055
+      ],
+      "color": "#5a5a62"
+    }
+  ]
+}

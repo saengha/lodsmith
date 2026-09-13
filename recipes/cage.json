@@ -1,0 +1,88 @@
+{
+  "id": "cage",
+  "name": "Cage",
+  "description": "Iron cage with floor, bars, roof, and a hanging ring. cage.ring is selectable. Not a lantern housing.",
+  "tags": [
+    "dungeon",
+    "metal",
+    "props"
+  ],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "floor",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.36,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.015
+      ],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "bars_front",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.03,
+        0.4
+      ],
+      "location": [
+        0,
+        -0.165,
+        0.23
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "bars_back",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.03,
+        0.4
+      ],
+      "location": [
+        0,
+        0.165,
+        0.23
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "roof",
+      "primitive": "cube",
+      "size": [
+        0.38,
+        0.38,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.445
+      ],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "ring",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.03,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.49
+      ],
+      "color": "#5a5a62"
+    }
+  ]
+}

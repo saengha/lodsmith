@@ -1,0 +1,73 @@
+{
+  "id": "grindstone",
+  "name": "Grindstone",
+  "description": "Treadle grindstone: wheel, trough, crank, and stand. grindstone.wheel is selectable.",
+  "tags": [
+    "smithy",
+    "tool",
+    "stone"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "stand",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.2,
+        0.16
+      ],
+      "location": [
+        0,
+        0,
+        0.08
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "trough",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.12,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.04
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "wheel",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.05,
+        0.22
+      ],
+      "location": [
+        0,
+        0,
+        0.2
+      ],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "crank",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.12,
+        0.03
+      ],
+      "location": [
+        0,
+        0.12,
+        0.2
+      ],
+      "color": "#3a3a40"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "fireplace",
+  "name": "Fireplace",
+  "description": "Indoor fireplace: surround, opening, mantel, and firebox. fireplace.mantel is selectable.",
+  "tags": [
+    "furniture",
+    "indoor",
+    "stone"
+  ],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "hearth",
+      "primitive": "cube",
+      "size": [
+        0.9,
+        0.4,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.04
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "surround",
+      "primitive": "cube",
+      "size": [
+        0.8,
+        0.28,
+        0.7
+      ],
+      "location": [
+        0,
+        0.06,
+        0.43
+      ],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "opening",
+      "primitive": "cube",
+      "size": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "location": [
+        0,
+        -0.02,
+        0.36
+      ],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "mantel",
+      "primitive": "cube",
+      "size": [
+        0.92,
+        0.32,
+        0.06
+      ],
+      "location": [
+        0,
+        0.04,
+        0.81
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "firebox",
+      "primitive": "cube",
+      "size": [
+        0.32,
+        0.16,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.12
+      ],
+      "color": "#8c2f2f"
+    }
+  ]
+}

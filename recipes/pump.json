@@ -1,0 +1,73 @@
+{
+  "id": "pump",
+  "name": "Pump",
+  "description": "Yard pump with a spout and a handle. pump.handle is selectable.",
+  "tags": [
+    "farm",
+    "water",
+    "village"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "post",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.08,
+        0.7
+      ],
+      "location": [
+        0,
+        0,
+        0.35
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "spout",
+      "primitive": "cube",
+      "size": [
+        0.12,
+        0.04,
+        0.04
+      ],
+      "location": [
+        0.1,
+        0,
+        0.48
+      ],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "handle",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.16,
+        0.03
+      ],
+      "location": [
+        -0.08,
+        0.06,
+        0.62
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "catch",
+      "primitive": "cube",
+      "size": [
+        0.2,
+        0.16,
+        0.04
+      ],
+      "location": [
+        0.12,
+        0,
+        0.02
+      ],
+      "color": "#6a6a70"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cheese",
+  "name": "Cheese",
+  "description": "Wheel of cheese with a rind and a cut wedge. cheese.wedge is selectable.",
+  "tags": [
+    "kitchen",
+    "food",
+    "market"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "wheel",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.16,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.03
+      ],
+      "color": "#e0c060"
+    },
+    {
+      "name": "rind",
+      "primitive": "cube",
+      "size": [
+        0.18,
+        0.18,
+        0.015
+      ],
+      "location": [
+        0,
+        0,
+        0.068
+      ],
+      "color": "#c9a040"
+    },
+    {
+      "name": "wedge",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.06,
+        0.05
+      ],
+      "location": [
+        0.12,
+        0.08,
+        0.03
+      ],
+      "color": "#ead080"
+    }
+  ]
+}

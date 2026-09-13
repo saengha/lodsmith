@@ -1,0 +1,73 @@
+{
+  "id": "dresser",
+  "name": "Dresser",
+  "description": "Chest of drawers: body, two drawers, and a top. dresser.drawer_top is selectable.",
+  "tags": [
+    "furniture",
+    "indoor",
+    "wood"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "body",
+      "primitive": "cube",
+      "size": [
+        0.8,
+        0.4,
+        0.7
+      ],
+      "location": [
+        0,
+        0,
+        0.39
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "top",
+      "primitive": "cube",
+      "size": [
+        0.84,
+        0.44,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.76
+      ],
+      "color": "#8c6239"
+    },
+    {
+      "name": "drawer_top",
+      "primitive": "cube",
+      "size": [
+        0.7,
+        0.36,
+        0.16
+      ],
+      "location": [
+        0,
+        -0.04,
+        0.56
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "drawer_bot",
+      "primitive": "cube",
+      "size": [
+        0.7,
+        0.36,
+        0.16
+      ],
+      "location": [
+        0,
+        -0.04,
+        0.32
+      ],
+      "color": "#7a5429"
+    }
+  ]
+}

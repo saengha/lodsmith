@@ -1,0 +1,73 @@
+{
+  "id": "lectern",
+  "name": "Lectern",
+  "description": "Reading stand: post, slanted desk, and a book stop. lectern.desk is selectable.",
+  "tags": [
+    "dungeon",
+    "indoor",
+    "wood"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.22,
+        0.05
+      ],
+      "location": [
+        0,
+        0,
+        0.025
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "post",
+      "primitive": "cube",
+      "size": [
+        0.07,
+        0.07,
+        0.7
+      ],
+      "location": [
+        0,
+        0,
+        0.4
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "desk",
+      "primitive": "cube",
+      "size": [
+        0.32,
+        0.22,
+        0.04
+      ],
+      "location": [
+        0,
+        0.04,
+        0.78
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "stop",
+      "primitive": "cube",
+      "size": [
+        0.32,
+        0.03,
+        0.03
+      ],
+      "location": [
+        0,
+        -0.08,
+        0.76
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

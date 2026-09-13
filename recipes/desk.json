@@ -1,0 +1,103 @@
+{
+  "id": "desk",
+  "name": "Desk",
+  "description": "Writing desk with four legs and a drawer. desk.drawer is selectable. Not a dining table.",
+  "tags": [
+    "furniture",
+    "indoor",
+    "wood"
+  ],
+  "target_tris": 72,
+  "parts": [
+    {
+      "name": "top",
+      "primitive": "cube",
+      "size": [
+        0.9,
+        0.5,
+        0.05
+      ],
+      "location": [
+        0,
+        0,
+        0.74
+      ],
+      "color": "#8c6239"
+    },
+    {
+      "name": "leg_fl",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.06,
+        0.72
+      ],
+      "location": [
+        -0.4,
+        -0.2,
+        0.36
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "leg_fr",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.06,
+        0.72
+      ],
+      "location": [
+        0.4,
+        -0.2,
+        0.36
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "leg_bl",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.06,
+        0.72
+      ],
+      "location": [
+        -0.4,
+        0.2,
+        0.36
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "leg_br",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.06,
+        0.72
+      ],
+      "location": [
+        0.4,
+        0.2,
+        0.36
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "drawer",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.4,
+        0.1
+      ],
+      "location": [
+        0,
+        0,
+        0.64
+      ],
+      "color": "#7a5429"
+    }
+  ]
+}

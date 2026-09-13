@@ -1,0 +1,88 @@
+{
+  "id": "wardrobe",
+  "name": "Wardrobe",
+  "description": "Tall cabinet with two doors and a plinth. wardrobe.door_l is selectable.",
+  "tags": [
+    "furniture",
+    "indoor",
+    "wood"
+  ],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "cabinet",
+      "primitive": "cube",
+      "size": [
+        0.7,
+        0.4,
+        1.5
+      ],
+      "location": [
+        0,
+        0,
+        0.81
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "door_l",
+      "primitive": "cube",
+      "size": [
+        0.32,
+        0.04,
+        1.3
+      ],
+      "location": [
+        -0.16,
+        -0.22,
+        0.81
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "door_r",
+      "primitive": "cube",
+      "size": [
+        0.32,
+        0.04,
+        1.3
+      ],
+      "location": [
+        0.16,
+        -0.22,
+        0.81
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "knob",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.04,
+        0.03
+      ],
+      "location": [
+        0.02,
+        -0.25,
+        0.81
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "plinth",
+      "primitive": "cube",
+      "size": [
+        0.74,
+        0.42,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.04
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "potion",
+  "name": "Potion",
+  "description": "Stoppered flask with liquid and a label. potion.cork is selectable. Not a wine bottle.",
+  "tags": [
+    "dungeon",
+    "props",
+    "glass"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "flask",
+      "primitive": "cube",
+      "size": [
+        0.07,
+        0.07,
+        0.12
+      ],
+      "location": [
+        0,
+        0,
+        0.06
+      ],
+      "color": "#4a7a6a"
+    },
+    {
+      "name": "liquid",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.05,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.05
+      ],
+      "color": "#6a4a6a"
+    },
+    {
+      "name": "cork",
+      "primitive": "cube",
+      "size": [
+        0.035,
+        0.035,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.135
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "label",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.01,
+        0.04
+      ],
+      "location": [
+        0,
+        -0.04,
+        0.06
+      ],
+      "color": "#e8e0d0"
+    }
+  ]
+}

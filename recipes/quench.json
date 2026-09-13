@@ -1,0 +1,58 @@
+{
+  "id": "quench",
+  "name": "Quench tub",
+  "description": "Water tub for quenching steel. quench.water is selectable.",
+  "tags": [
+    "smithy",
+    "forge",
+    "water"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "tub",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.24,
+        0.16
+      ],
+      "location": [
+        0,
+        0,
+        0.08
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "water",
+      "primitive": "cube",
+      "size": [
+        0.3,
+        0.18,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.12
+      ],
+      "color": "#3a5a7a"
+    },
+    {
+      "name": "rim",
+      "primitive": "cube",
+      "size": [
+        0.38,
+        0.26,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.165
+      ],
+      "color": "#6b4622"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "tongs",
+  "name": "Tongs",
+  "description": "Smithing tongs with two arms, a pivot, and tips. tongs.pivot is selectable.",
+  "tags": [
+    "smithy",
+    "tool",
+    "metal"
+  ],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "arm_l",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.02,
+        0.02
+      ],
+      "location": [
+        -0.02,
+        -0.02,
+        0.03
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "arm_r",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.02,
+        0.02
+      ],
+      "location": [
+        -0.02,
+        0.02,
+        0.03
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "pivot",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.05,
+        0.03
+      ],
+      "location": [
+        0.04,
+        0,
+        0.03
+      ],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "tip_l",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.025,
+        0.02
+      ],
+      "location": [
+        0.14,
+        -0.03,
+        0.03
+      ],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "tip_r",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.025,
+        0.02
+      ],
+      "location": [
+        0.14,
+        0.03,
+        0.03
+      ],
+      "color": "#2c2c30"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "canteen",
+  "name": "Canteen",
+  "description": "Field canteen with a cap and a strap. canteen.cap is selectable.",
+  "tags": [
+    "camp",
+    "props",
+    "water"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "body",
+      "primitive": "cube",
+      "size": [
+        0.1,
+        0.06,
+        0.14
+      ],
+      "location": [
+        0,
+        0,
+        0.07
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "cap",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.04,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.155
+      ],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "strap",
+      "primitive": "cube",
+      "size": [
+        0.02,
+        0.08,
+        0.12
+      ],
+      "location": [
+        0,
+        -0.07,
+        0.07
+      ],
+      "color": "#5a3a2a"
+    }
+  ]
+}

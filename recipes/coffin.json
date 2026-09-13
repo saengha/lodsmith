@@ -1,0 +1,73 @@
+{
+  "id": "coffin",
+  "name": "Coffin",
+  "description": "Lidded coffin with two side handles. coffin.lid is selectable.",
+  "tags": [
+    "dungeon",
+    "props",
+    "wood"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "box",
+      "primitive": "cube",
+      "size": [
+        0.5,
+        0.22,
+        0.18
+      ],
+      "location": [
+        0,
+        0,
+        0.09
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "lid",
+      "primitive": "cube",
+      "size": [
+        0.52,
+        0.24,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.2
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "handle_l",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.04,
+        0.04
+      ],
+      "location": [
+        -0.18,
+        -0.14,
+        0.1
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "handle_r",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.04,
+        0.04
+      ],
+      "location": [
+        0.18,
+        -0.14,
+        0.1
+      ],
+      "color": "#3a3a40"
+    }
+  ]
+}

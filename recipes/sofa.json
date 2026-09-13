@@ -1,0 +1,88 @@
+{
+  "id": "sofa",
+  "name": "Sofa",
+  "description": "Two-seat sofa with arms and a skirt. sofa.back is selectable. Not a bench.",
+  "tags": [
+    "furniture",
+    "indoor",
+    "cloth"
+  ],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "seat",
+      "primitive": "cube",
+      "size": [
+        1.1,
+        0.5,
+        0.14
+      ],
+      "location": [
+        0,
+        0,
+        0.32
+      ],
+      "color": "#5a3a2a"
+    },
+    {
+      "name": "back",
+      "primitive": "cube",
+      "size": [
+        1.1,
+        0.16,
+        0.4
+      ],
+      "location": [
+        0,
+        0.22,
+        0.56
+      ],
+      "color": "#6a4a6a"
+    },
+    {
+      "name": "arm_l",
+      "primitive": "cube",
+      "size": [
+        0.14,
+        0.5,
+        0.28
+      ],
+      "location": [
+        -0.55,
+        0,
+        0.42
+      ],
+      "color": "#5a3a2a"
+    },
+    {
+      "name": "arm_r",
+      "primitive": "cube",
+      "size": [
+        0.14,
+        0.5,
+        0.28
+      ],
+      "location": [
+        0.55,
+        0,
+        0.42
+      ],
+      "color": "#5a3a2a"
+    },
+    {
+      "name": "skirt",
+      "primitive": "cube",
+      "size": [
+        1.12,
+        0.52,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.21
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

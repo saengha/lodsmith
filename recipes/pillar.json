@@ -1,0 +1,58 @@
+{
+  "id": "pillar",
+  "name": "Pillar",
+  "description": "Stone pillar: base, shaft, capital. pillar.shaft is selectable.",
+  "tags": [
+    "dungeon",
+    "stone",
+    "architecture"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.36,
+        0.12
+      ],
+      "location": [
+        0,
+        0,
+        0.06
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "shaft",
+      "primitive": "cube",
+      "size": [
+        0.24,
+        0.24,
+        1.1
+      ],
+      "location": [
+        0,
+        0,
+        0.67
+      ],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "capital",
+      "primitive": "cube",
+      "size": [
+        0.34,
+        0.34,
+        0.1
+      ],
+      "location": [
+        0,
+        0,
+        1.27
+      ],
+      "color": "#6a6a70"
+    }
+  ]
+}

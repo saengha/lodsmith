@@ -51,7 +51,7 @@ lodsmith starts as JSON recipes plus Blender operators. A local LLM planner can 
 
 ## Why contribute
 
-The useful indie vocabulary is small (tavern, warehouse, camp, smithy, inn) and the catalog is about **34 recipes / 11 sets**. A merged `id` is a public name. Build already creates `lodsmith.crate` with `crate.lid` (72 tris), plus names like `anvil.horn`, `bed.pillow`, `chair.back`. Agents type those same ids. The next careful name (`bellows`, `grindstone`, `wardrobe`) is claimed once. Kenney ships meshes you consume. Hosted generators ship a new unnamed mesh each prompt. Here you ship a **rebuildable recipe** — named cube parts, meters, `target_tris`. Don't exec bpy.
+The useful indie vocabulary is small (tavern, warehouse, camp, smithy, inn, dungeon, farm) and the catalog is **100 recipes / 15 sets**. A merged `id` is a public name. Build already creates `lodsmith.crate` with `crate.lid` (72 tris), plus names like `anvil.horn`, `bed.pillow`, `bellows.nozzle`, `wardrobe.door_l`. Agents type those same ids. The next careful name is claimed once. Kenney ships meshes you consume. Hosted generators ship a new unnamed mesh each prompt. Here you ship a **rebuildable recipe** — named cube parts, meters, `target_tris`. Don't exec bpy.
 
 A first PR is one JSON file. You do not need Python. Near-duplicate crates and 1 cm-taller stools will be closed. Offensive or troll ids are closed by maintainers; CI also rejects reserved slugs. Credit is git plus [CREDITS.md](CREDITS.md), not a coin or a download counter. `plan` already accepts Korean (`선술집`, `모루`, `모닥불`, `의자`, `상자`); aliases for a new id are optional maintainer follow-up.
 
@@ -73,9 +73,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 You should get a parent like `lodsmith.crate` with named parts (floor, walls, lid) — not a single cube. Builds go in a `lodsmith` collection. Building the same recipe again replaces the previous parent. A set lands under `lodsmith.set.tavern`. **Snap Z to ground** keeps the 3D cursor's XY and plants props at Z=0. **Clear lodsmith** deletes lodsmith objects. Build hides the factory `Cube` so a 0.8m crate is not swallowed by the 2m default mesh.
 
-Shipped recipes: `crate`, `crate_open`, `crate_lid_ajar`, `crate_battens`, `barrel`, `barrel_open`, `pallet`, `bench`, `stool`, `table`, `lantern`, `fence_post`, `signpost`, `chest`, `mug`, `candle`, `sack`, `shelf`, `door`, `torch`, `bucket`, `window`, `ladder`, `cart`, `well`, `bed`, `chair`, `anvil`, `firepit`, `tent`, `bottle`, `book`, `hammer`, `cauldron`.
+Shipped recipes: 100 ids — `python -m addon list`. Includes the original crate/barrel/tavern furniture plus kitchen (`plate`, `kettle`, `knife`), smithy (`bellows`, `grindstone`, `hearth`), camp (`bedroll`, `backpack`), farm (`trough`, `plow`, `scarecrow`), dungeon (`altar`, `cage`, `trapdoor`), furniture (`desk`, `wardrobe`, `sofa`), and armory (`sword`, `shield`, `axe`).
 
-Shipped sets: `tavern`, `warehouse`, `yard`, `camp`, `market`, `entrance`, `crate_stack`, `wellside`, `facade`, `smithy`, `inn`.
+Shipped sets: `tavern`, `warehouse`, `yard`, `camp`, `market`, `entrance`, `crate_stack`, `wellside`, `facade`, `smithy`, `inn`, `kitchen`, `dungeon`, `armory`, `farm`.
 
 ## CLI (no Blender)
 

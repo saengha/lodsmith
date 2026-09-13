@@ -1,0 +1,73 @@
+{
+  "id": "kettle",
+  "name": "Kettle",
+  "description": "Lidded kettle with a spout and overhead bail. kettle.spout is selectable.",
+  "tags": [
+    "kitchen",
+    "smithy",
+    "metal"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "body",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.16,
+        0.12
+      ],
+      "location": [
+        0,
+        0,
+        0.06
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "lid",
+      "primitive": "cube",
+      "size": [
+        0.12,
+        0.12,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.135
+      ],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "spout",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.04,
+        0.04
+      ],
+      "location": [
+        0.11,
+        0,
+        0.08
+      ],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "bail",
+      "primitive": "cube",
+      "size": [
+        0.02,
+        0.14,
+        0.1
+      ],
+      "location": [
+        0,
+        0,
+        0.18
+      ],
+      "color": "#3a3a40"
+    }
+  ]
+}

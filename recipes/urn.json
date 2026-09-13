@@ -1,0 +1,73 @@
+{
+  "id": "urn",
+  "name": "Urn",
+  "description": "Lidded urn with a neck and foot. urn.lid is selectable.",
+  "tags": [
+    "dungeon",
+    "props",
+    "stone"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "foot",
+      "primitive": "cube",
+      "size": [
+        0.1,
+        0.1,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.02
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "bowl",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.16,
+        0.14
+      ],
+      "location": [
+        0,
+        0,
+        0.11
+      ],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "neck",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.08,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.21
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "lid",
+      "primitive": "cube",
+      "size": [
+        0.1,
+        0.1,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.26
+      ],
+      "color": "#5a5a62"
+    }
+  ]
+}

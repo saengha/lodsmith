@@ -1,0 +1,13 @@
+{
+  "id": "armory",
+  "name": "Armory",
+  "description": "Sword, shield, axe, crate, and a banner.",
+  "tags": ["armory", "weapon", "indoor"],
+  "items": [
+    { "recipe": "sword", "location": [0.15, 0, 0.5] },
+    { "recipe": "shield", "location": [-0.55, 0.1, 0] },
+    { "recipe": "axe", "location": [0.55, 0.15, 0] },
+    { "recipe": "crate", "location": [0, 0, 0] },
+    { "recipe": "banner", "location": [-1.2, 0.4, 0] }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "hay_bale",
+  "name": "Hay bale",
+  "description": "Tied hay bale with two twines. hay_bale.twine_a is selectable.",
+  "tags": [
+    "farm",
+    "outdoor",
+    "props"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "bale",
+      "primitive": "cube",
+      "size": [
+        0.4,
+        0.24,
+        0.24
+      ],
+      "location": [
+        0,
+        0,
+        0.12
+      ],
+      "color": "#c8b060"
+    },
+    {
+      "name": "twine_a",
+      "primitive": "cube",
+      "size": [
+        0.42,
+        0.03,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.18
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "twine_b",
+      "primitive": "cube",
+      "size": [
+        0.42,
+        0.03,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.08
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "shield",
+  "name": "Shield",
+  "description": "Heater shield with a boss, rim, and grip. shield.boss is selectable.",
+  "tags": [
+    "armory",
+    "weapon",
+    "props"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "face",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.08,
+        0.48
+      ],
+      "location": [
+        0,
+        0,
+        0.28
+      ],
+      "color": "#8c2f2f"
+    },
+    {
+      "name": "boss",
+      "primitive": "cube",
+      "size": [
+        0.1,
+        0.06,
+        0.1
+      ],
+      "location": [
+        0,
+        -0.06,
+        0.3
+      ],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "rim",
+      "primitive": "cube",
+      "size": [
+        0.4,
+        0.04,
+        0.52
+      ],
+      "location": [
+        0,
+        0.02,
+        0.28
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "grip",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.1,
+        0.12
+      ],
+      "location": [
+        0,
+        0.08,
+        0.26
+      ],
+      "color": "#6b4622"
+    }
+  ]
+}

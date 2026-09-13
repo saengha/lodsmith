@@ -1,0 +1,58 @@
+{
+  "id": "goblet",
+  "name": "Goblet",
+  "description": "Stemmed cup: bowl, stem, and foot. Not a mug: mug has a side handle and no stem.",
+  "tags": [
+    "tavern",
+    "props",
+    "metal"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "foot",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.08,
+        0.015
+      ],
+      "location": [
+        0,
+        0,
+        0.008
+      ],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "stem",
+      "primitive": "cube",
+      "size": [
+        0.025,
+        0.025,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.055
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "cup",
+      "primitive": "cube",
+      "size": [
+        0.09,
+        0.09,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.13
+      ],
+      "color": "#d9c27a"
+    }
+  ]
+}

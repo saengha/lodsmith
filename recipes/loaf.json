@@ -1,0 +1,58 @@
+{
+  "id": "loaf",
+  "name": "Loaf",
+  "description": "Baked loaf with two heel ends. loaf.heel_l is selectable.",
+  "tags": [
+    "kitchen",
+    "food",
+    "props"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "crumb",
+      "primitive": "cube",
+      "size": [
+        0.2,
+        0.1,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.04
+      ],
+      "color": "#c4a06a"
+    },
+    {
+      "name": "heel_l",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.1,
+        0.08
+      ],
+      "location": [
+        -0.115,
+        0,
+        0.04
+      ],
+      "color": "#a87840"
+    },
+    {
+      "name": "heel_r",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.1,
+        0.08
+      ],
+      "location": [
+        0.115,
+        0,
+        0.04
+      ],
+      "color": "#a87840"
+    }
+  ]
+}

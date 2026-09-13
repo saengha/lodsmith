@@ -1,0 +1,58 @@
+{
+  "id": "cutting_board",
+  "name": "Cutting board",
+  "description": "Prep board with a juice groove and handle hole block. cutting_board.groove is a cube.",
+  "tags": [
+    "kitchen",
+    "wood",
+    "food"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "board",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.24,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.015
+      ],
+      "color": "#8c6239"
+    },
+    {
+      "name": "groove",
+      "primitive": "cube",
+      "size": [
+        0.3,
+        0.02,
+        0.008
+      ],
+      "location": [
+        0,
+        0.09,
+        0.028
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "grip",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.08,
+        0.02
+      ],
+      "location": [
+        -0.2,
+        0,
+        0.025
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

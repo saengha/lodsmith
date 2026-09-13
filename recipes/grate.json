@@ -1,0 +1,73 @@
+{
+  "id": "grate",
+  "name": "Grate",
+  "description": "Floor grate: frame and three bars. grate.bar_b is selectable.",
+  "tags": [
+    "dungeon",
+    "metal",
+    "props"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "frame",
+      "primitive": "cube",
+      "size": [
+        0.4,
+        0.4,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.02
+      ],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "bar_a",
+      "primitive": "cube",
+      "size": [
+        0.34,
+        0.04,
+        0.03
+      ],
+      "location": [
+        0,
+        -0.1,
+        0.035
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "bar_b",
+      "primitive": "cube",
+      "size": [
+        0.34,
+        0.04,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.035
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "bar_c",
+      "primitive": "cube",
+      "size": [
+        0.34,
+        0.04,
+        0.03
+      ],
+      "location": [
+        0,
+        0.1,
+        0.035
+      ],
+      "color": "#3a3a40"
+    }
+  ]
+}

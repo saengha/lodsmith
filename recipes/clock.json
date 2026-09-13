@@ -1,0 +1,73 @@
+{
+  "id": "clock",
+  "name": "Clock",
+  "description": "Case clock with a face, pendulum, and weight. clock.pendulum is selectable.",
+  "tags": [
+    "furniture",
+    "indoor",
+    "wood"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "case",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.16,
+        0.9
+      ],
+      "location": [
+        0,
+        0,
+        0.45
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "face",
+      "primitive": "cube",
+      "size": [
+        0.18,
+        0.04,
+        0.18
+      ],
+      "location": [
+        0,
+        -0.1,
+        0.72
+      ],
+      "color": "#e8e0d0"
+    },
+    {
+      "name": "pendulum",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.03,
+        0.28
+      ],
+      "location": [
+        0,
+        -0.08,
+        0.36
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "weight",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.05,
+        0.08
+      ],
+      "location": [
+        0,
+        -0.08,
+        0.2
+      ],
+      "color": "#5a5a62"
+    }
+  ]
+}

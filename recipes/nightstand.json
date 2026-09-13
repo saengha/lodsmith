@@ -1,0 +1,73 @@
+{
+  "id": "nightstand",
+  "name": "Nightstand",
+  "description": "Bedside stand with a drawer. nightstand.drawer is selectable.",
+  "tags": [
+    "furniture",
+    "indoor",
+    "wood"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "top",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.32,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.5
+      ],
+      "color": "#8c6239"
+    },
+    {
+      "name": "body",
+      "primitive": "cube",
+      "size": [
+        0.32,
+        0.28,
+        0.36
+      ],
+      "location": [
+        0,
+        0,
+        0.3
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "drawer",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.24,
+        0.1
+      ],
+      "location": [
+        0,
+        -0.04,
+        0.38
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "leg",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.24,
+        0.12
+      ],
+      "location": [
+        0,
+        0,
+        0.06
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

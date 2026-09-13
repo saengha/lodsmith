@@ -1,0 +1,58 @@
+{
+  "id": "rock",
+  "name": "Rock",
+  "description": "Sit-on boulder chunk with a chip. rock.chip is selectable. Small field stone, not a mountain.",
+  "tags": [
+    "outdoor",
+    "stone",
+    "props"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "mass",
+      "primitive": "cube",
+      "size": [
+        0.36,
+        0.28,
+        0.22
+      ],
+      "location": [
+        0,
+        0,
+        0.11
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "chip",
+      "primitive": "cube",
+      "size": [
+        0.14,
+        0.12,
+        0.1
+      ],
+      "location": [
+        0.16,
+        0.08,
+        0.16
+      ],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [
+        0.3,
+        0.24,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.03
+      ],
+      "color": "#5a5a58"
+    }
+  ]
+}

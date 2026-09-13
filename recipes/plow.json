@@ -1,0 +1,73 @@
+{
+  "id": "plow",
+  "name": "Plow",
+  "description": "Hand plow: beam, share, and two handles. plow.share is a cube.",
+  "tags": [
+    "farm",
+    "tool",
+    "outdoor"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "beam",
+      "primitive": "cube",
+      "size": [
+        0.7,
+        0.06,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.22
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "share",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.12,
+        0.04
+      ],
+      "location": [
+        0.28,
+        0,
+        0.06
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "handle_l",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.04,
+        0.28
+      ],
+      "location": [
+        -0.32,
+        -0.08,
+        0.36
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "handle_r",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.04,
+        0.28
+      ],
+      "location": [
+        -0.32,
+        0.08,
+        0.36
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

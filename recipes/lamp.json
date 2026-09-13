@@ -1,0 +1,73 @@
+{
+  "id": "lamp",
+  "name": "Lamp",
+  "description": "Table lamp: base, stem, shade, and bulb. lamp.shade is selectable. Not a post lantern.",
+  "tags": [
+    "furniture",
+    "light",
+    "indoor"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [
+        0.14,
+        0.14,
+        0.04
+      ],
+      "location": [
+        0,
+        0,
+        0.02
+      ],
+      "color": "#2c2c30"
+    },
+    {
+      "name": "stem",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.04,
+        0.22
+      ],
+      "location": [
+        0,
+        0,
+        0.15
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "bulb",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.06,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.28
+      ],
+      "color": "#d9c27a"
+    },
+    {
+      "name": "shade",
+      "primitive": "cube",
+      "size": [
+        0.18,
+        0.18,
+        0.12
+      ],
+      "location": [
+        0,
+        0,
+        0.36
+      ],
+      "color": "#e8e0d0"
+    }
+  ]
+}

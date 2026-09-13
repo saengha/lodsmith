@@ -1,0 +1,58 @@
+{
+  "id": "knife",
+  "name": "Knife",
+  "description": "Kitchen knife: blade, guard, and handle. knife.blade is a cube.",
+  "tags": [
+    "kitchen",
+    "tool",
+    "metal"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "blade",
+      "primitive": "cube",
+      "size": [
+        0.18,
+        0.02,
+        0.04
+      ],
+      "location": [
+        0.08,
+        0,
+        0.03
+      ],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "guard",
+      "primitive": "cube",
+      "size": [
+        0.02,
+        0.05,
+        0.05
+      ],
+      "location": [
+        -0.02,
+        0,
+        0.03
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "handle",
+      "primitive": "cube",
+      "size": [
+        0.1,
+        0.03,
+        0.03
+      ],
+      "location": [
+        -0.08,
+        0,
+        0.03
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "bellows",
+  "name": "Bellows",
+  "description": "Forge bellows: leather bag, nozzle, and two handles. bellows.nozzle is a cube.",
+  "tags": [
+    "smithy",
+    "tool",
+    "forge"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "bag",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.14,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.06
+      ],
+      "color": "#5a3a2a"
+    },
+    {
+      "name": "nozzle",
+      "primitive": "cube",
+      "size": [
+        0.1,
+        0.04,
+        0.04
+      ],
+      "location": [
+        0.16,
+        0,
+        0.05
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "handle_l",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.03,
+        0.03
+      ],
+      "location": [
+        -0.04,
+        -0.1,
+        0.08
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "handle_r",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.03,
+        0.03
+      ],
+      "location": [
+        -0.04,
+        0.1,
+        0.08
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

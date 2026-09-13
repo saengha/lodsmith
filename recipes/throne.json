@@ -1,0 +1,88 @@
+{
+  "id": "throne",
+  "name": "Throne",
+  "description": "High seat with arms and a dais. throne.back is selectable. Not a chair.",
+  "tags": [
+    "dungeon",
+    "furniture",
+    "indoor"
+  ],
+  "target_tris": 60,
+  "parts": [
+    {
+      "name": "dais",
+      "primitive": "cube",
+      "size": [
+        0.7,
+        0.6,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.04
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "seat",
+      "primitive": "cube",
+      "size": [
+        0.4,
+        0.36,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.36
+      ],
+      "color": "#7a5429"
+    },
+    {
+      "name": "back",
+      "primitive": "cube",
+      "size": [
+        0.4,
+        0.08,
+        0.7
+      ],
+      "location": [
+        0,
+        0.2,
+        0.75
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "arm_l",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.36,
+        0.16
+      ],
+      "location": [
+        -0.24,
+        0,
+        0.48
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "arm_r",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.36,
+        0.16
+      ],
+      "location": [
+        0.24,
+        0,
+        0.48
+      ],
+      "color": "#4a2c17"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bowl",
+  "name": "Bowl",
+  "description": "Kitchen bowl: basin, wall, and foot. bowl.basin is selectable.",
+  "tags": [
+    "kitchen",
+    "food",
+    "props"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "foot",
+      "primitive": "cube",
+      "size": [
+        0.08,
+        0.08,
+        0.02
+      ],
+      "location": [
+        0,
+        0,
+        0.01
+      ],
+      "color": "#6b4622"
+    },
+    {
+      "name": "basin",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.16,
+        0.02
+      ],
+      "location": [
+        0,
+        0,
+        0.03
+      ],
+      "color": "#8c6239"
+    },
+    {
+      "name": "wall",
+      "primitive": "cube",
+      "size": [
+        0.18,
+        0.18,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.08
+      ],
+      "color": "#7a5429"
+    }
+  ]
+}

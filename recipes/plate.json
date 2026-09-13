@@ -1,0 +1,43 @@
+{
+  "id": "plate",
+  "name": "Plate",
+  "description": "Shallow dish with a raised rim. plate.rim is selectable.",
+  "tags": [
+    "kitchen",
+    "food",
+    "props"
+  ],
+  "target_tris": 24,
+  "parts": [
+    {
+      "name": "dish",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.22,
+        0.016
+      ],
+      "location": [
+        0,
+        0,
+        0.008
+      ],
+      "color": "#e8e0d0"
+    },
+    {
+      "name": "rim",
+      "primitive": "cube",
+      "size": [
+        0.26,
+        0.26,
+        0.012
+      ],
+      "location": [
+        0,
+        0,
+        0.018
+      ],
+      "color": "#8c6239"
+    }
+  ]
+}

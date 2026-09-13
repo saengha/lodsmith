@@ -1,0 +1,73 @@
+{
+  "id": "spit",
+  "name": "Spit",
+  "description": "Camp roasting spit: pole, fork, crank, and a roast. spit.roast is a cube.",
+  "tags": [
+    "camp",
+    "food",
+    "tool"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "pole",
+      "primitive": "cube",
+      "size": [
+        0.04,
+        0.04,
+        0.7
+      ],
+      "location": [
+        0,
+        0,
+        0.35
+      ],
+      "color": "#4a2c17"
+    },
+    {
+      "name": "fork",
+      "primitive": "cube",
+      "size": [
+        0.16,
+        0.03,
+        0.03
+      ],
+      "location": [
+        0.08,
+        0,
+        0.5
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "crank",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.1,
+        0.03
+      ],
+      "location": [
+        -0.02,
+        0.06,
+        0.52
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "roast",
+      "primitive": "cube",
+      "size": [
+        0.12,
+        0.08,
+        0.08
+      ],
+      "location": [
+        0.14,
+        0,
+        0.5
+      ],
+      "color": "#8c2f2f"
+    }
+  ]
+}

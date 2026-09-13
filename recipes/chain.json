@@ -1,0 +1,73 @@
+{
+  "id": "chain",
+  "name": "Chain",
+  "description": "Three cube links and an end ring. chain.link_b is selectable.",
+  "tags": [
+    "dungeon",
+    "metal",
+    "props"
+  ],
+  "target_tris": 48,
+  "parts": [
+    {
+      "name": "link_a",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.03,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.2
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "link_b",
+      "primitive": "cube",
+      "size": [
+        0.03,
+        0.05,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.12
+      ],
+      "color": "#5a5a62"
+    },
+    {
+      "name": "link_c",
+      "primitive": "cube",
+      "size": [
+        0.05,
+        0.03,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.04
+      ],
+      "color": "#3a3a40"
+    },
+    {
+      "name": "ring",
+      "primitive": "cube",
+      "size": [
+        0.06,
+        0.06,
+        0.03
+      ],
+      "location": [
+        0,
+        0,
+        0.27
+      ],
+      "color": "#2c2c30"
+    }
+  ]
+}

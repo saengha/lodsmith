@@ -1,0 +1,58 @@
+{
+  "id": "pedestal",
+  "name": "Pedestal",
+  "description": "Display plinth: base, die, and cap. pedestal.die is selectable.",
+  "tags": [
+    "dungeon",
+    "stone",
+    "props"
+  ],
+  "target_tris": 36,
+  "parts": [
+    {
+      "name": "base",
+      "primitive": "cube",
+      "size": [
+        0.32,
+        0.32,
+        0.08
+      ],
+      "location": [
+        0,
+        0,
+        0.04
+      ],
+      "color": "#6a6a70"
+    },
+    {
+      "name": "die",
+      "primitive": "cube",
+      "size": [
+        0.22,
+        0.22,
+        0.36
+      ],
+      "location": [
+        0,
+        0,
+        0.26
+      ],
+      "color": "#4a4a50"
+    },
+    {
+      "name": "cap",
+      "primitive": "cube",
+      "size": [
+        0.28,
+        0.28,
+        0.06
+      ],
+      "location": [
+        0,
+        0,
+        0.47
+      ],
+      "color": "#6a6a70"
+    }
+  ]
+}

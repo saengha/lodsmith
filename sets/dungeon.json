@@ -1,0 +1,17 @@
+{
+  "id": "dungeon",
+  "name": "Dungeon",
+  "description": "Altar, lectern, cage, coffin, lever, grate, pillar, torch, and a potion.",
+  "tags": ["dungeon", "indoor", "stone"],
+  "items": [
+    { "recipe": "altar", "location": [0, 1.1, 0] },
+    { "recipe": "lectern", "location": [-1.1, 0.4, 0] },
+    { "recipe": "cage", "location": [1.3, 0.6, 0] },
+    { "recipe": "coffin", "location": [1.4, -0.8, 0] },
+    { "recipe": "lever", "location": [-1.4, -0.5, 0] },
+    { "recipe": "grate", "location": [0, -0.2, 0] },
+    { "recipe": "pillar", "location": [-1.8, 1.2, 0] },
+    { "recipe": "torch", "location": [0.7, 1.3, 0] },
+    { "recipe": "potion", "location": [0.15, 1.1, 0.5] }
+  ]
+}
